@@ -1,7 +1,7 @@
-res://Scenes/Game.tscn
 res://Scenes/MainMenue.tscn
+res://Scenes/Game.tscn
 res://Charecters/Player.tscn
 res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res
-res://Scripts/Player.gd
+res://GameResources/Coins.gd
