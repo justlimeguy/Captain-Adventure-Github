@@ -49,7 +49,7 @@ func _physics_process(delta):
 		move_and_slide()
 		update_animation()
 		update_facing_direction()
-
+	rayRead()
 	playerState()
 
 
@@ -103,6 +103,6 @@ func shoot_ray():
 	if ray_cast_2d.is_colliding() == true:
 		ray_cast_2d.target_position.x -= 25
 func rayRead():
-	var body = ray_cast_2d.get_collider().name
+	var body = ray_cast_2d.get_collider()
 	if ray_cast_2d.is_colliding() == true:
 		print(body)
