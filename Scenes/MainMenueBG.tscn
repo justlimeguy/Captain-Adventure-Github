@@ -1,0 +1,94 @@
+[gd_scene load_steps=9 format=3 uid="uid://ltqwqxxa1i5w"]
+
+[ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="1_c5lqj"]
+[ext_resource type="Script" path="res://Scripts/MainMenueBG.gd" id="1_jt75b"]
+[ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="2_pejhx"]
+[ext_resource type="PackedScene" uid="uid://6xqm0e8kjopf" path="res://GameResources/Water.res" id="3_4v8ss"]
+[ext_resource type="Texture2D" uid="uid://3wu3llvar5if" path="res://Imports/IslandSprites/Background/Big Clouds.png" id="4_q31wu"]
+
+[sub_resource type="Animation" id="Animation_m2pcq"]
+resource_name = "Clouds"
+length = 30.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Cluod:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 30),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(720, 203), Vector2(-720, 203)]
+}
+
+[sub_resource type="Animation" id="Animation_4brno"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Cluod:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(247, 203)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e2vaj"]
+_data = {
+"Clouds": SubResource("Animation_m2pcq"),
+"RESET": SubResource("Animation_4brno")
+}
+
+[node name="MainMenueBG" type="Node2D"]
+z_index = -1
+script = ExtResource("1_jt75b")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 960.0
+offset_bottom = 542.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_c5lqj")
+
+[node name="TileMap" type="TileMap" parent="."]
+z_index = 2
+scale = Vector2(3.2, 3.2)
+tile_set = ExtResource("2_pejhx")
+cell_quadrant_size = 32
+format = 2
+layer_0/z_index = 1
+layer_0/tile_data = PackedInt32Array(327680, 262144, 1, 327685, 655360, 0, 327686, 65536, 4, 327687, 65536, 4, 327688, 65536, 4, 327689, 131072, 4, 196608, 262144, 0, 262144, 262144, 1, 327684, 0, 1, 262148, 983040, 3, 262149, 1048576, 3, 196613, 0, 0, 196614, 131072, 0, 262150, 655360, 0, 262151, 1048576, 3, 327681, 65536, 1, 327682, 65536, 1, 327683, 65536, 1)
+layer_1/name = ""
+layer_1/enabled = true
+layer_1/modulate = Color(1, 1, 1, 1)
+layer_1/y_sort_enabled = false
+layer_1/y_sort_origin = 0
+layer_1/z_index = 0
+layer_1/tile_data = PackedInt32Array(327680, 65536, 1, 327684, 65536, 1, 327681, 65536, 1, 327682, 65536, 1, 327683, 65536, 1, 262149, 65536, 1)
+
+[node name="Water" parent="." instance=ExtResource("3_4v8ss")]
+position = Vector2(241, 472)
+scale = Vector2(3.71209, 3.71209)
+
+[node name="Cluod" type="Sprite2D" parent="."]
+position = Vector2(672, 203)
+scale = Vector2(3.2, 3.2)
+texture = ExtResource("4_q31wu")
+
+[node name="Cluod2" type="Sprite2D" parent="Cluod"]
+position = Vector2(447.188, 0)
+texture = ExtResource("4_q31wu")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+libraries = {
+"": SubResource("AnimationLibrary_e2vaj")
+}
