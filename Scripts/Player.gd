@@ -98,9 +98,11 @@ func _on_animated_sprite_2d_animation_finished():
 func playerState():
 	pass
 func shoot_ray():
-
 	if ray_cast_2d.is_colliding() == false:
 		ray_cast_2d.target_position.x += 25
 	if ray_cast_2d.is_colliding() == true:
-		ray_cast_2d.target_position.x = 0
-		
+		ray_cast_2d.target_position.x -= 25
+func rayRead():
+	var body = ray_cast_2d.get_collider().name
+	if ray_cast_2d.is_colliding() == true:
+		print(body)

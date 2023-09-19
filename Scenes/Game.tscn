@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=21 format=3 uid="uid://qjjrj836row8"]
 
 [ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="1_6q134"]
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://db81tkuw74fsn" path="res://Imports/IslandSprites/Background/Water Reflect Big 03.png" id="12_sbve8"]
 [ext_resource type="Texture2D" uid="uid://b182dkknhyvgr" path="res://Imports/IslandSprites/Background/Water Reflect Big 04.png" id="13_jk06i"]
 [ext_resource type="PackedScene" uid="uid://3ibata3h365n" path="res://Charecters/Player.tscn" id="14_qt6p1"]
+[ext_resource type="PackedScene" uid="uid://btghm8bvf1ys" path="res://GameResources/Coins.res" id="15_3pl5h"]
 
 [sub_resource type="Animation" id="Animation_xmhib"]
 resource_name = "Clouds"
@@ -241,6 +242,9 @@ frame_progress = 0.580871
 
 [node name="Player" parent="." instance=ExtResource("14_qt6p1")]
 position = Vector2(778, 95)
+
+[node name="Coins" parent="." instance=ExtResource("15_3pl5h")]
+position = Vector2(163, 433)
 
 [connection signal="pressed" from="CanvasLayer/Pause" to="." method="_on_pause_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenue/VBoxContainer/Resume" to="." method="_on_resume_pressed"]

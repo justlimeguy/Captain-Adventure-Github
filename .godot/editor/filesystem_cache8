@@ -9,18 +9,18 @@ InspectorConvertor.gd::GDScript::-1::1694667729::0::1::::<>EditorInspectorPlugin
 NodeSelectorProperty.gd::GDScript::-1::1694667729::0::1::::<>EditorProperty<>::
 plugin.cfg::TextFile::-1::1694667729::0::1::::<><>::
 plugin.gd::GDScript::-1::1694667729::0::1::::<>EditorPlugin<>::
-::res://Charecters/::1695098947
-Player.tscn::PackedScene::1981864360116487765::1695092774::0::1::::<><>::res://Scripts/Player.gd<>uid://f2bg7btl7d3a::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png<>uid://bcwkgnoeaajgu::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png<>uid://d1p1ws5sjgbep::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png<>uid://dn6g4ahl5jws1::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 01.png<>uid://bqkxkchaqw8rf::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png<>uid://brwqt6l4xd2f7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 02.png<>uid://dpev7dgcp4h7q::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 02.png<>uid://ce2ms2m7pyi02::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 03.png<>uid://cobcbrvy6qfoe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 04.png<>uid://1seppcy5tvn7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 03.png<>uid://cr70wdpxofimm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 03.png<>uid://dccd007wfukiq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 04.png<>uid://cn3dbewjofdjg::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 04.png<>uid://c0svxdqx464i5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 01.png<>uid://dx0cvciii53pe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 02.png<>uid://c7j6xumlwifcs::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 03.png<>uid://dfpui1g4ewsjt::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 04.png<>uid://wrl2rmv5svlr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 05.png<>uid://b2ldpp5jmgybc::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 01.png<>uid://cx2p3p47qypcm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 02.png<>uid://d3xj5gx1u3rfd::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 03.png<>uid://c6re66esfltbi::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 01.png<>uid://bslkh4hbxmmcj::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 02.png<>uid://c4co320bh8qjr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 01.png<>uid://cnor1qn7yiwbe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 02.png<>uid://csw3xu2klurlq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 03.png<>uid://bib7ajop745d5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png<>uid://xclpdhvxdo3t::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png<>uid://d2b1jvinecsbx::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png
-WoodShooter.scn::PackedScene::2422785873963937983::1695092774::0::1::::<><>::
-::res://GameResources/::1695098947
+::res://Charecters/::1695100854
+Player.tscn::PackedScene::1981864360116487765::1695100854::0::1::::<><>::res://Scripts/Player.gd<>uid://f2bg7btl7d3a::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png<>uid://bcwkgnoeaajgu::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png<>uid://d1p1ws5sjgbep::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png<>uid://dn6g4ahl5jws1::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 01.png<>uid://bqkxkchaqw8rf::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png<>uid://brwqt6l4xd2f7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 02.png<>uid://dpev7dgcp4h7q::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 02.png<>uid://ce2ms2m7pyi02::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 03.png<>uid://cobcbrvy6qfoe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 04.png<>uid://1seppcy5tvn7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 03.png<>uid://cr70wdpxofimm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 03.png<>uid://dccd007wfukiq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 04.png<>uid://cn3dbewjofdjg::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 04.png<>uid://c0svxdqx464i5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 01.png<>uid://dx0cvciii53pe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 02.png<>uid://c7j6xumlwifcs::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 03.png<>uid://dfpui1g4ewsjt::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 04.png<>uid://wrl2rmv5svlr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 05.png<>uid://b2ldpp5jmgybc::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 01.png<>uid://cx2p3p47qypcm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 02.png<>uid://d3xj5gx1u3rfd::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 03.png<>uid://c6re66esfltbi::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 01.png<>uid://bslkh4hbxmmcj::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 02.png<>uid://c4co320bh8qjr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 01.png<>uid://cnor1qn7yiwbe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 02.png<>uid://csw3xu2klurlq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 03.png<>uid://bib7ajop745d5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png<>uid://xclpdhvxdo3t::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png<>uid://d2b1jvinecsbx::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png
+WoodShooter.scn::PackedScene::2422785873963937983::1695100854::0::1::::<><>::
+::res://GameResources/::1695100855
 cloud_transition.res::PackedScene::7690016123184159763::1694702752::0::1::::<><>::uid://trhfnp140v5
-Coins.res::PackedScene::109789504811574530::1695092775::0::1::::<><>::
-Keys.scn::PackedScene::1341103553986310853::1695092775::0::1::::<><>::
+Coins.res::PackedScene::109789504811574530::1695100855::0::1::::<><>::
+Keys.scn::PackedScene::1341103553986310853::1695100854::0::1::::<><>::
 Ship.res::PackedScene::1445487386155420969::1694702752::0::1::::<><>::
 ShootingOrb.res::PackedScene::6824714194797055857::1694702751::0::1::::<><>::
 Spike.res::PackedScene::2137164915160302658::1694702752::0::1::::<><>::
 Water.res::PackedScene::2224329063309574979::1694702752::0::1::::<><>::uid://1l2e1q0hgkjv
-::res://Imports/::1695098955
+::res://Imports/::1695100971
 Chonkly.otf::FontFile::6529980763336591286::1692064990::1692064990::1::::<><>::
 ::res://Imports/Captain/::1695098950
 ::res://Imports/Captain/Captain Clown Nose/::1695098949
@@ -414,6 +414,155 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 2.png::CompressedTexture2D::3825318950172337164::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2156154613564475279::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::3118955195057825663::1692064990::1692064990::1::::<><>::
+::res://Imports/Treasure/::1695100973
+::res://Imports/Treasure/Big Map/::1695100971
+::res://Imports/Treasure/Big Map/Folding/::1695100983
+01.png::CompressedTexture2D::1980654655109260933::1695100971::1695100983::1::::<><>::
+02.png::CompressedTexture2D::2718212636226374320::1695100971::1695100983::1::::<><>::
+03.png::CompressedTexture2D::4497216347280791904::1695100971::1695100983::1::::<><>::
+04.png::CompressedTexture2D::5799031784783438863::1695100971::1695100983::1::::<><>::
+::res://Imports/Treasure/Big Map/Idle/::1695100983
+01.png::CompressedTexture2D::6573300364756959067::1695100971::1695100983::1::::<><>::
+02.png::CompressedTexture2D::4317927123700492425::1695100971::1695100983::1::::<><>::
+03.png::CompressedTexture2D::4775247028638501425::1695100971::1695100983::1::::<><>::
+04.png::CompressedTexture2D::5854203282943842029::1695100971::1695100983::1::::<><>::
+05.png::CompressedTexture2D::4104410118585419650::1695100971::1695100983::1::::<><>::
+06.png::CompressedTexture2D::3945151030077922293::1695100971::1695100983::1::::<><>::
+07.png::CompressedTexture2D::2281488952627805000::1695100971::1695100983::1::::<><>::
+08.png::CompressedTexture2D::1524606731957884859::1695100971::1695100994::1::::<><>::
+09.png::CompressedTexture2D::5056480138775176643::1695100971::1695100983::1::::<><>::
+10.png::CompressedTexture2D::1953431111673833540::1695100971::1695100983::1::::<><>::
+11.png::CompressedTexture2D::4458249064863980322::1695100971::1695100983::1::::<><>::
+::res://Imports/Treasure/Big Map/Unfolding/::1695100983
+01.png::CompressedTexture2D::3805725581699100690::1695100971::1695100983::1::::<><>::
+02.png::CompressedTexture2D::3665231738185821427::1695100971::1695100982::1::::<><>::
+03.png::CompressedTexture2D::4839155991110310343::1695100971::1695100982::1::::<><>::
+04.png::CompressedTexture2D::7061025569359261818::1695100971::1695100982::1::::<><>::
+05.png::CompressedTexture2D::6153271232498571133::1695100971::1695100982::1::::<><>::
+::res://Imports/Treasure/Blue Diamond/::1695100982
+01.png::CompressedTexture2D::5911866512127919603::1695100971::1695100982::1::::<><>::
+02.png::CompressedTexture2D::9054271032673318611::1695100971::1695100982::1::::<><>::
+03.png::CompressedTexture2D::2048101414904893872::1695100971::1695100982::1::::<><>::
+04.png::CompressedTexture2D::5861546706207182465::1695100971::1695100982::1::::<><>::
+::res://Imports/Treasure/Blue Potion/::1695100982
+01.png::CompressedTexture2D::2838765602698494269::1695100971::1695100982::1::::<><>::
+02.png::CompressedTexture2D::8300946092149024073::1695100971::1695100982::1::::<><>::
+03.png::CompressedTexture2D::4966235049973051024::1695100971::1695100982::1::::<><>::
+04.png::CompressedTexture2D::3441446803935676705::1695100971::1695100982::1::::<><>::
+05.png::CompressedTexture2D::7312592299303127638::1695100971::1695100982::1::::<><>::
+06.png::CompressedTexture2D::3515620257535293723::1695100971::1695100982::1::::<><>::
+07.png::CompressedTexture2D::2462641770829395359::1695100971::1695100982::1::::<><>::
+::res://Imports/Treasure/Coin Effect/::1695100984
+01.png::CompressedTexture2D::7167678301543042006::1695100971::1695100984::1::::<><>::
+02.png::CompressedTexture2D::960735810100698150::1695100971::1695100984::1::::<><>::
+03.png::CompressedTexture2D::2372777492926512310::1695100971::1695100984::1::::<><>::
+::res://Imports/Treasure/Diamond Effect/::1695100984
+01.png::CompressedTexture2D::1163118247772515364::1695100971::1695100984::1::::<><>::
+02.png::CompressedTexture2D::8387349631457181117::1695100971::1695100984::1::::<><>::
+03.png::CompressedTexture2D::8583714618513093725::1695100971::1695100984::1::::<><>::
+04.png::CompressedTexture2D::6840677980793837461::1695100972::1695100984::1::::<><>::
+::res://Imports/Treasure/Gold Coin/::1695100984
+01.png::CompressedTexture2D::2632855570677232075::1695100972::1695100984::1::::<><>::
+02.png::CompressedTexture2D::6868988146659476614::1695100972::1695100984::1::::<><>::
+03.png::CompressedTexture2D::800745354129804737::1695100972::1695100984::1::::<><>::
+04.png::CompressedTexture2D::6948906126972172750::1695100972::1695100984::1::::<><>::
+::res://Imports/Treasure/Golden Skull/::1695100984
+01.png::CompressedTexture2D::3753698078077419187::1695100972::1695100984::1::::<><>::
+02.png::CompressedTexture2D::8359604010368259454::1695100972::1695100984::1::::<><>::
+03.png::CompressedTexture2D::5468331963776865029::1695100972::1695100984::1::::<><>::
+04.png::CompressedTexture2D::2826869513522014131::1695100972::1695100984::1::::<><>::
+05.png::CompressedTexture2D::5732783750305039770::1695100972::1695100984::1::::<><>::
+06.png::CompressedTexture2D::8189673334908896254::1695100972::1695100984::1::::<><>::
+07.png::CompressedTexture2D::3976829218265878766::1695100972::1695100984::1::::<><>::
+08.png::CompressedTexture2D::5390173772473222991::1695100972::1695100984::1::::<><>::
+::res://Imports/Treasure/Green Bottle/::1695100984
+01.png::CompressedTexture2D::4078528110449661483::1695100972::1695100984::1::::<><>::
+02.png::CompressedTexture2D::4574145474089829862::1695100972::1695100984::1::::<><>::
+03.png::CompressedTexture2D::2299372285373879186::1695100972::1695100984::1::::<><>::
+04.png::CompressedTexture2D::1890996465818880838::1695100972::1695100983::1::::<><>::
+05.png::CompressedTexture2D::4080428979863693291::1695100972::1695100983::1::::<><>::
+06.png::CompressedTexture2D::5476615659606459685::1695100972::1695100983::1::::<><>::
+07.png::CompressedTexture2D::7657613739276498944::1695100972::1695100983::1::::<><>::
+::res://Imports/Treasure/Green Diamond/::1695100983
+01.png::CompressedTexture2D::8112981419270099115::1695100972::1695100983::1::::<><>::
+02.png::CompressedTexture2D::1186396237108446750::1695100972::1695100983::1::::<><>::
+03.png::CompressedTexture2D::7625243170231897512::1695100972::1695100983::1::::<><>::
+04.png::CompressedTexture2D::3336210351539587266::1695100972::1695100983::1::::<><>::
+::res://Imports/Treasure/Map Effect/::1695100972
+::res://Imports/Treasure/Map Effect/In/::1695100983
+01.png::CompressedTexture2D::6737733536450944638::1695100972::1695100983::1::::<><>::
+02.png::CompressedTexture2D::293554635953119893::1695100972::1695100981::1::::<><>::
+03.png::CompressedTexture2D::4287365744503893216::1695100972::1695100981::1::::<><>::
+::res://Imports/Treasure/Map Effect/Out/::1695100981
+01.png::CompressedTexture2D::2312130374148723642::1695100972::1695100981::1::::<><>::
+02.png::CompressedTexture2D::6215167115342808343::1695100972::1695100981::1::::<><>::
+03.png::CompressedTexture2D::8457215114882734364::1695100972::1695100981::1::::<><>::
+::res://Imports/Treasure/Potion Effect/::1695100981
+01.png::CompressedTexture2D::996631011300891974::1695100972::1695100981::1::::<><>::
+02.png::CompressedTexture2D::6343816683045073416::1695100972::1695100981::1::::<><>::
+03.png::CompressedTexture2D::4691368472365447086::1695100972::1695100981::1::::<><>::
+04.png::CompressedTexture2D::4593737425972227219::1695100972::1695100981::1::::<><>::
+::res://Imports/Treasure/Red Diamond/::1695100981
+01.png::CompressedTexture2D::8475748454175453107::1695100972::1695100981::1::::<><>::
+02.png::CompressedTexture2D::4367467525334399869::1695100972::1695100981::1::::<><>::
+03.png::CompressedTexture2D::4683331354028291113::1695100972::1695100981::1::::<><>::
+04.png::CompressedTexture2D::213222395211946870::1695100972::1695100981::1::::<><>::
+::res://Imports/Treasure/Red Potion/::1695100981
+01.png::CompressedTexture2D::1308130523624358049::1695100972::1695100981::1::::<><>::
+02.png::CompressedTexture2D::3877590082557328062::1695100972::1695100981::1::::<><>::
+03.png::CompressedTexture2D::4581599133262136132::1695100972::1695100981::1::::<><>::
+04.png::CompressedTexture2D::5045336330449403269::1695100972::1695100981::1::::<><>::
+05.png::CompressedTexture2D::3954550638726413582::1695100972::1695100980::1::::<><>::
+06.png::CompressedTexture2D::2521196417191656907::1695100972::1695100980::1::::<><>::
+07.png::CompressedTexture2D::3596801165424851112::1695100972::1695100980::1::::<><>::
+::res://Imports/Treasure/Silver Coin/::1695100980
+01.png::CompressedTexture2D::1700498539005000308::1695100972::1695100980::1::::<><>::
+02.png::CompressedTexture2D::6810357249317248394::1695100972::1695100980::1::::<><>::
+03.png::CompressedTexture2D::914467003520481949::1695100973::1695100980::1::::<><>::
+04.png::CompressedTexture2D::2133578769112573748::1695100973::1695100980::1::::<><>::
+::res://Imports/Treasure/Skull Effect/::1695100980
+01.png::CompressedTexture2D::4963536856355184902::1695100973::1695100980::1::::<><>::
+02.png::CompressedTexture2D::1299510611488925371::1695100973::1695100980::1::::<><>::
+03.png::CompressedTexture2D::1232336869947853059::1695100973::1695100980::1::::<><>::
+04.png::CompressedTexture2D::8926264521034446202::1695100973::1695100980::1::::<><>::
+05.png::CompressedTexture2D::5834945435766295114::1695100973::1695100980::1::::<><>::
+::res://Imports/Treasure/Small Maps/::1695100973
+::res://Imports/Treasure/Small Maps/Small Map 1/::1695100982
+01.png::CompressedTexture2D::8008939773509580787::1695100973::1695100980::1::::<><>::
+02.png::CompressedTexture2D::7748179452657581889::1695100973::1695100982::1::::<><>::
+03.png::CompressedTexture2D::2548863217736839987::1695100973::1695100982::1::::<><>::
+04.png::CompressedTexture2D::1327531061044804312::1695100973::1695100982::1::::<><>::
+05.png::CompressedTexture2D::7234015361476748526::1695100973::1695100982::1::::<><>::
+06.png::CompressedTexture2D::8047741516930928986::1695100973::1695100982::1::::<><>::
+07.png::CompressedTexture2D::689934874512724404::1695100973::1695100982::1::::<><>::
+08.png::CompressedTexture2D::3851134736374523521::1695100973::1695100982::1::::<><>::
+::res://Imports/Treasure/Small Maps/Small Map 2/::1695100982
+01.png::CompressedTexture2D::7229107714696234489::1695100973::1695100982::1::::<><>::
+02.png::CompressedTexture2D::5099807457013614398::1695100973::1695100982::1::::<><>::
+03.png::CompressedTexture2D::2958338773775653640::1695100973::1695100982::1::::<><>::
+04.png::CompressedTexture2D::2613295821104421200::1695100973::1695100982::1::::<><>::
+05.png::CompressedTexture2D::5607506816182681189::1695100973::1695100982::1::::<><>::
+06.png::CompressedTexture2D::73704728536151653::1695100973::1695100982::1::::<><>::
+07.png::CompressedTexture2D::5863792675862237902::1695100973::1695100982::1::::<><>::
+08.png::CompressedTexture2D::7963159968056071349::1695100973::1695100982::1::::<><>::
+::res://Imports/Treasure/Small Maps/Small Map 3/::1695100982
+01.png::CompressedTexture2D::5754874147326049086::1695100973::1695100982::1::::<><>::
+02.png::CompressedTexture2D::6098732078714734357::1695100973::1695100981::1::::<><>::
+03.png::CompressedTexture2D::7853418821917382009::1695100973::1695100981::1::::<><>::
+04.png::CompressedTexture2D::7318402366306302711::1695100973::1695100981::1::::<><>::
+05.png::CompressedTexture2D::8328898842593442013::1695100973::1695100981::1::::<><>::
+06.png::CompressedTexture2D::965889688790560634::1695100973::1695100981::1::::<><>::
+07.png::CompressedTexture2D::4222842770442079536::1695100973::1695100981::1::::<><>::
+08.png::CompressedTexture2D::8395653743362891867::1695100973::1695100981::1::::<><>::
+::res://Imports/Treasure/Small Maps/Small Map 4/::1695100981
+01.png::CompressedTexture2D::5311048127432266045::1695100973::1695100981::1::::<><>::
+02.png::CompressedTexture2D::6084373419973397441::1695100973::1695100981::1::::<><>::
+03.png::CompressedTexture2D::8765422505203777025::1695100973::1695100981::1::::<><>::
+04.png::CompressedTexture2D::5692384423554018251::1695100974::1695100981::1::::<><>::
+05.png::CompressedTexture2D::6275254488403208307::1695100974::1695100981::1::::<><>::
+06.png::CompressedTexture2D::3127239356523707094::1695100974::1695100981::1::::<><>::
+07.png::CompressedTexture2D::4928269383194295150::1695100974::1695100981::1::::<><>::
+08.png::CompressedTexture2D::1296562228014083995::1695100974::1695100981::1::::<><>::
 ::res://Imports/UI/::1695098962
 ::res://Imports/UI/Big Banner/::1695098955
 1.png::CompressedTexture2D::1467523242987645020::1692064990::1692064990::1::::<><>::
@@ -789,15 +938,15 @@ Yellow Paper (guide).png::CompressedTexture2D::6238631711508463068::1692064990::
 Terrain.res::TileSet::5090237910441449316::1692064990::0::1::::<><>::uid://ck613dgx3g2q7
 UI.res::TileSet::1549281833842111476::1692064990::0::1::::<><>::uid://bdmwhvdvbiwxd
 WaterFront.res::SpriteFrames::1849265983333275695::1692064990::0::1::::<><>::uid://gpwdi3gt3hwl
-::res://Scenes/::1695098962
-Game.tscn::PackedScene::1142178234429337981::1695092774::0::1::::<><>::uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>res://Scripts/Game.gd<>uid://cer0qe0j47rsm::::res://ProjectResourses/Terrain.res<>uid://blaxi3pa8rmw4::::res://Imports/UI/Small Text/Small Icons/10.png<>uid://gl0tc0jjgq2s::::res://Imports/UI/Green Board/16.png<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://3wu3llvar5if::::res://Imports/IslandSprites/Background/Big Clouds.png<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://cwn8y5fi0mdvu::::res://Imports/IslandSprites/Background/Water Reflect Big 01.png<>uid://b8tydcyinaa0f::::res://Imports/IslandSprites/Background/Water Reflect Big 02.png<>uid://db81tkuw74fsn::::res://Imports/IslandSprites/Background/Water Reflect Big 03.png<>uid://b182dkknhyvgr::::res://Imports/IslandSprites/Background/Water Reflect Big 04.png<>uid://3ibata3h365n::::res://Charecters/Player.tscn
-MainMenue.tscn::PackedScene::478087787091029796::1695092773::0::1::::<><>::uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://ltqwqxxa1i5w::::res://Scenes/MainMenueBG.tscn<>res://Scripts/MainMenue.gd<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://drfo3vxyw3ls4::::res://Imports/UI/Big Text/3.png<>uid://cuexhcovgufqc::::res://Imports/UI/Big Text/1.png<>uid://bmjf4kq1a4xo5::::res://Imports/UI/Big Text/16.png<>uid://dflyks8ih2t8f::::res://Imports/UI/Big Text/20.png<>uid://bqntgjvo8kbve::::res://Imports/UI/Big Text/9.png<>uid://w4nb4k1hmvq3::::res://Imports/UI/Big Text/14.png<>uid://k58sle2huna::::res://Imports/UI/Big Text/4.png<>uid://bmmcuuqi2rp8c::::res://Imports/UI/Big Text/22.png<>uid://4uaxb8dfdv3e::::res://Imports/UI/Big Text/5.png<>uid://bt42gfpsedo4y::::res://Imports/UI/Big Text/21.png<>uid://ew67abqn5r58::::res://Imports/UI/Big Text/18.png
+::res://Scenes/::1695100854
+Game.tscn::PackedScene::1142178234429337981::1695100854::0::1::::<><>::uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>res://Scripts/Game.gd<>uid://cer0qe0j47rsm::::res://ProjectResourses/Terrain.res<>uid://blaxi3pa8rmw4::::res://Imports/UI/Small Text/Small Icons/10.png<>uid://gl0tc0jjgq2s::::res://Imports/UI/Green Board/16.png<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://3wu3llvar5if::::res://Imports/IslandSprites/Background/Big Clouds.png<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://cwn8y5fi0mdvu::::res://Imports/IslandSprites/Background/Water Reflect Big 01.png<>uid://b8tydcyinaa0f::::res://Imports/IslandSprites/Background/Water Reflect Big 02.png<>uid://db81tkuw74fsn::::res://Imports/IslandSprites/Background/Water Reflect Big 03.png<>uid://b182dkknhyvgr::::res://Imports/IslandSprites/Background/Water Reflect Big 04.png<>uid://3ibata3h365n::::res://Charecters/Player.tscn
+MainMenue.tscn::PackedScene::478087787091029796::1695100854::0::1::::<><>::uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://ltqwqxxa1i5w::::res://Scenes/MainMenueBG.tscn<>res://Scripts/MainMenue.gd<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://drfo3vxyw3ls4::::res://Imports/UI/Big Text/3.png<>uid://cuexhcovgufqc::::res://Imports/UI/Big Text/1.png<>uid://bmjf4kq1a4xo5::::res://Imports/UI/Big Text/16.png<>uid://dflyks8ih2t8f::::res://Imports/UI/Big Text/20.png<>uid://bqntgjvo8kbve::::res://Imports/UI/Big Text/9.png<>uid://w4nb4k1hmvq3::::res://Imports/UI/Big Text/14.png<>uid://k58sle2huna::::res://Imports/UI/Big Text/4.png<>uid://bmmcuuqi2rp8c::::res://Imports/UI/Big Text/22.png<>uid://4uaxb8dfdv3e::::res://Imports/UI/Big Text/5.png<>uid://bt42gfpsedo4y::::res://Imports/UI/Big Text/21.png<>uid://ew67abqn5r58::::res://Imports/UI/Big Text/18.png
 MainMenueBG.tscn::PackedScene::812312093645813922::1694702752::0::1::::<><>::uid://bvht4wnbcbwsx
-::res://Scripts/::1695098962
+::res://Scripts/::1695100783
 Game.gd::GDScript::-1::1695050400::0::1::::<>Node2D<>::
 MainMenue.gd::GDScript::-1::1695049563::0::1::::<>Control<>::
 MainMenueBG.gd::GDScript::-1::1692064990::0::1::::<>Node2D<>::
-Player.gd::GDScript::-1::1695092774::0::1::::<>CharacterBody2D<>::
+Player.gd::GDScript::-1::1695100783::0::1::::<>CharacterBody2D<>::
 ShootingOrb.gd::GDScript::-1::1692064990::0::1::::<>Node<>::
 Spikes.gd::GDScript::-1::1692064990::0::1::::<>Node<>::
 Water.gd::GDScript::-1::1695088454::0::1::::<>AnimatedSprite2D<>::
