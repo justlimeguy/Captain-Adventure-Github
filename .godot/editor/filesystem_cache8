@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695098458
+::res://::1695099940
 game_vars.gd::GDScript::-1::1695086955::0::1::::<>Node<>::
 Green Board (guide)2.png::CompressedTexture2D::9009030716475996452::1695046335::1695046421::1::::<><>::
 icon.svg::CompressedTexture2D::69453410453100261::1692064990::1692064990::1::::<><>::
-::res://addons/::1695042071
-::res://addons/AS2P/::1694667729
+::res://addons/::1695098947
+::res://addons/AS2P/::1695098947
 InspectorConvertor.gd::GDScript::-1::1694667729::0::1::::<>EditorInspectorPlugin<>::
 NodeSelectorProperty.gd::GDScript::-1::1694667729::0::1::::<>EditorProperty<>::
 plugin.cfg::TextFile::-1::1694667729::0::1::::<><>::
 plugin.gd::GDScript::-1::1694667729::0::1::::<>EditorPlugin<>::
-::res://Charecters/::1695092775
+::res://Charecters/::1695098947
 Player.tscn::PackedScene::1981864360116487765::1695092774::0::1::::<><>::res://Scripts/Player.gd<>uid://f2bg7btl7d3a::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png<>uid://bcwkgnoeaajgu::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png<>uid://d1p1ws5sjgbep::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png<>uid://dn6g4ahl5jws1::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 01.png<>uid://bqkxkchaqw8rf::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png<>uid://brwqt6l4xd2f7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 02.png<>uid://dpev7dgcp4h7q::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 02.png<>uid://ce2ms2m7pyi02::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 03.png<>uid://cobcbrvy6qfoe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 04.png<>uid://1seppcy5tvn7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 03.png<>uid://cr70wdpxofimm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 03.png<>uid://dccd007wfukiq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 04.png<>uid://cn3dbewjofdjg::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 04.png<>uid://c0svxdqx464i5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 01.png<>uid://dx0cvciii53pe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 02.png<>uid://c7j6xumlwifcs::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 03.png<>uid://dfpui1g4ewsjt::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 04.png<>uid://wrl2rmv5svlr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 05.png<>uid://b2ldpp5jmgybc::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 01.png<>uid://cx2p3p47qypcm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 02.png<>uid://d3xj5gx1u3rfd::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 03.png<>uid://c6re66esfltbi::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 01.png<>uid://bslkh4hbxmmcj::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 02.png<>uid://c4co320bh8qjr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 01.png<>uid://cnor1qn7yiwbe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 02.png<>uid://csw3xu2klurlq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 03.png<>uid://bib7ajop745d5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png<>uid://xclpdhvxdo3t::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png<>uid://d2b1jvinecsbx::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png
 WoodShooter.scn::PackedScene::2422785873963937983::1695092774::0::1::::<><>::
-::res://GameResources/::1695092775
+::res://GameResources/::1695098947
 cloud_transition.res::PackedScene::7690016123184159763::1694702752::0::1::::<><>::uid://trhfnp140v5
 Coins.res::PackedScene::109789504811574530::1695092775::0::1::::<><>::
 Keys.scn::PackedScene::1341103553986310853::1695092775::0::1::::<><>::
@@ -20,102 +20,102 @@ Ship.res::PackedScene::1445487386155420969::1694702752::0::1::::<><>::
 ShootingOrb.res::PackedScene::6824714194797055857::1694702751::0::1::::<><>::
 Spike.res::PackedScene::2137164915160302658::1694702752::0::1::::<><>::
 Water.res::PackedScene::2224329063309574979::1694702752::0::1::::<><>::uid://1l2e1q0hgkjv
-::res://Imports/::1694667815
+::res://Imports/::1695098955
 Chonkly.otf::FontFile::6529980763336591286::1692064990::1692064990::1::::<><>::
-::res://Imports/Captain/::1694667818
-::res://Imports/Captain/Captain Clown Nose/::1694667818
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/::1694667816
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/09-Idle Sword/::1694667828
+::res://Imports/Captain/::1695098950
+::res://Imports/Captain/Captain Clown Nose/::1695098949
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/::1695098948
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/09-Idle Sword/::1695098947
 Idle Sword 01.png::CompressedTexture2D::6489116000860166234::1694667816::1694667828::1::::<><>::
 Idle Sword 02.png::CompressedTexture2D::9169311937777192654::1694667816::1694667828::1::::<><>::
 Idle Sword 03.png::CompressedTexture2D::688394195161014638::1694667816::1694667828::1::::<><>::
 Idle Sword 04.png::CompressedTexture2D::6712178353897637048::1694667816::1694667828::1::::<><>::
 Idle Sword 05.png::CompressedTexture2D::817084882139511621::1694667816::1694667828::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/10-Run Sword/::1694667828
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/10-Run Sword/::1695098947
 Run Sword 01.png::CompressedTexture2D::7502961053731163285::1694667816::1694667828::1::::<><>::
 Run Sword 02.png::CompressedTexture2D::3922521914115461998::1694667816::1694667828::1::::<><>::
 Run Sword 03.png::CompressedTexture2D::4762890882584411977::1694667816::1694667828::1::::<><>::
 Run Sword 04.png::CompressedTexture2D::820762503910210730::1694667816::1694667828::1::::<><>::
 Run Sword 05.png::CompressedTexture2D::1423208543847201019::1694667816::1694667828::1::::<><>::
 Run Sword 06.png::CompressedTexture2D::3719158118827447700::1694667816::1694667828::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/11-Jump Sword/::1694667828
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/11-Jump Sword/::1695098947
 Jump Sword 01.png::CompressedTexture2D::270972167344971749::1694667816::1694667828::1::::<><>::
 Jump Sword 02.png::CompressedTexture2D::796917484854511125::1694667816::1694667828::1::::<><>::
 Jump Sword 03.png::CompressedTexture2D::4770185387196760770::1694667816::1694667828::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/12-Fall Sword/::1694667828
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/12-Fall Sword/::1695098947
 Fall Sword 01.png::CompressedTexture2D::2819392928366141468::1694667816::1694667828::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/13-Ground Sword/::1694667828
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/13-Ground Sword/::1695098947
 Ground Sword 01.png::CompressedTexture2D::3646586022415081988::1694667816::1694667828::1::::<><>::
 Ground Sword 02.png::CompressedTexture2D::2272025684256200811::1694667816::1694667828::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/::1694667828
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/::1695098947
 Hit Sword 01.png::CompressedTexture2D::99924447776267772::1694667816::1694667828::1::::<><>::
 Hit Sword 02.png::CompressedTexture2D::833038671952146963::1694667816::1694667827::1::::<><>::
 Hit Sword 03.png::CompressedTexture2D::5293999059195476693::1694667816::1694667827::1::::<><>::
 Hit Sword 04.png::CompressedTexture2D::188097408710854578::1694667816::1694667827::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/15-Attack 1/::1694667827
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/15-Attack 1/::1695098947
 Attack 1 01.png::CompressedTexture2D::1802542729047415735::1694667816::1694667827::1::::<><>::
 Attack 1 02.png::CompressedTexture2D::2984731828828241831::1694667816::1694667827::1::::<><>::
 Attack 1 03.png::CompressedTexture2D::6198366710619990754::1694667816::1694667827::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/16-Attack 2/::1694667827
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/16-Attack 2/::1695098948
 Attack 2 01.png::CompressedTexture2D::5626397212126452517::1694667816::1694667827::1::::<><>::
 Attack 2 02.png::CompressedTexture2D::7560904125639034930::1694667816::1694667827::1::::<><>::
 Attack 2 03.png::CompressedTexture2D::7168559341718398657::1694667816::1694667827::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/17-Attack 3/::1694667827
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/17-Attack 3/::1695098948
 Attack 3 01.png::CompressedTexture2D::7158761327143677089::1694667816::1694667827::1::::<><>::
 Attack 3 02.png::CompressedTexture2D::3376730336644920942::1694667816::1694667827::1::::<><>::
 Attack 3 03.png::CompressedTexture2D::882000483522571989::1694667816::1694667827::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/::1694667830
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/::1695098948
 Air Attack 1 01.png::CompressedTexture2D::7636775680827990281::1694667816::1694667827::1::::<><>::
 Air Attack 1 02.png::CompressedTexture2D::8246427782954249260::1694667816::1694667827::1::::<><>::
 Air Attack 1 03.png::CompressedTexture2D::6640957095908763729::1694667816::1694667830::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/::1694667830
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/::1695098948
 Air Attack 2 01.png::CompressedTexture2D::2898526914878133401::1694667816::1694667830::1::::<><>::
 Air Attack 2 02.png::CompressedTexture2D::7956991436070023675::1694667816::1694667830::1::::<><>::
 Air Attack 2 03.png::CompressedTexture2D::4129870739589964157::1694667816::1694667830::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/20-Throw Sword/::1694667830
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/20-Throw Sword/::1695098948
 Throw Sword 01.png::CompressedTexture2D::477515822329792950::1694667816::1694667830::1::::<><>::
 Throw Sword 02.png::CompressedTexture2D::2839924474409627677::1694667816::1694667830::1::::<><>::
 Throw Sword 03.png::CompressedTexture2D::2078557477851224456::1694667816::1694667830::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/::1694667817
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/::1694667830
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/::1695098949
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/::1695098948
 Idle 01.png::CompressedTexture2D::6566037571389937866::1694667816::1694667830::1::::<><>::
 Idle 02.png::CompressedTexture2D::8825373952043599842::1694667816::1694667830::1::::<><>::
 Idle 03.png::CompressedTexture2D::7039388133159514602::1694667817::1694667830::1::::<><>::
 Idle 04.png::CompressedTexture2D::7542401937986718877::1694667817::1694667830::1::::<><>::
 Idle 05.png::CompressedTexture2D::1579965997641163499::1694667817::1694667830::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/::1694667830
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/::1695098948
 Run 01.png::CompressedTexture2D::6813348085331998299::1694667817::1694667830::1::::<><>::
 Run 02.png::CompressedTexture2D::5715277104698422398::1694667817::1694667830::1::::<><>::
 Run 03.png::CompressedTexture2D::6083399105163955866::1694667817::1694667829::1::::<><>::
 Run 04.png::CompressedTexture2D::2951939249382828612::1694667817::1694667829::1::::<><>::
 Run 05.png::CompressedTexture2D::1619167002380564971::1694667817::1694667829::1::::<><>::
 Run 06.png::CompressedTexture2D::9058021036962203121::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/::1694667829
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/::1695098948
 Jump 01.png::CompressedTexture2D::4304437389721108884::1694667817::1694667829::1::::<><>::
 Jump 02.png::CompressedTexture2D::6443884561667250828::1694667817::1694667829::1::::<><>::
 Jump 03.png::CompressedTexture2D::9172630739919400337::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/::1694667829
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/::1695098948
 Fall 01.png::CompressedTexture2D::406755532477215636::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/::1694667829
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/::1695098948
 Ground 01.png::CompressedTexture2D::6984089804794385630::1694667817::1694667829::1::::<><>::
 Ground 02.png::CompressedTexture2D::3673149229024782253::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/::1694668069
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/::1695098948
 Hit 01.png::CompressedTexture2D::3531500424097510587::1694667817::1694667829::1::::<><>::
 Hit 02.png::CompressedTexture2D::8221684585870022276::1694668062::1694668069::1::::<><>::
 Hit 03.png::CompressedTexture2D::6033669191453781100::1694667817::1694667838::1::::<><>::
 Hit 04.png::CompressedTexture2D::5743283093073426668::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/::1694667829
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/::1695098948
 Dead Hit 01.png::CompressedTexture2D::8136128830083308446::1694667817::1694667829::1::::<><>::
 Dead Hit 02.png::CompressedTexture2D::3626054384662638494::1694667817::1694667829::1::::<><>::
 Dead Hit 03.png::CompressedTexture2D::1862339181112730022::1694667817::1694667829::1::::<><>::
 Dead Hit 04.png::CompressedTexture2D::7303996653213963128::1694667817::1694667829::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/::1694667825
+::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/::1695098949
 Dead Ground 01.png::CompressedTexture2D::2572833270862140932::1694667817::1694667825::1::::<><>::
 Dead Ground 02.png::CompressedTexture2D::9016756573851414427::1694667817::1694667825::1::::<><>::
 Dead Ground 03.png::CompressedTexture2D::5110097127644470205::1694667817::1694667825::1::::<><>::
 Dead Ground 04.png::CompressedTexture2D::5757673702322509988::1694667817::1694667825::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword/::1694667817
-::res://Imports/Captain/Captain Clown Nose/Sword/21-Sword Idle/::1694667825
+::res://Imports/Captain/Captain Clown Nose/Sword/::1695098949
+::res://Imports/Captain/Captain Clown Nose/Sword/21-Sword Idle/::1695098949
 Sword Idle 01.png::CompressedTexture2D::8235918540671169592::1694667817::1694667825::1::::<><>::
 Sword Idle 02.png::CompressedTexture2D::3889422531194131550::1694667817::1694667825::1::::<><>::
 Sword Idle 03.png::CompressedTexture2D::7344713524943040371::1694667817::1694667825::1::::<><>::
@@ -124,55 +124,55 @@ Sword Idle 05.png::CompressedTexture2D::1694512244790011209::1694667817::1694667
 Sword Idle 06.png::CompressedTexture2D::6476132282559657111::1694667817::1694667825::1::::<><>::
 Sword Idle 07.png::CompressedTexture2D::7439664294890482640::1694667817::1694667824::1::::<><>::
 Sword Idle 08.png::CompressedTexture2D::7913027887150705934::1694667817::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword/22-Sword Spinning/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword/22-Sword Spinning/::1695098949
 Sword Spinning 01.png::CompressedTexture2D::7046078364416277179::1694667817::1694667824::1::::<><>::
 Sword Spinning 02.png::CompressedTexture2D::5449043188502124736::1694667817::1694667824::1::::<><>::
 Sword Spinning 03.png::CompressedTexture2D::965782291166139575::1694667817::1694667824::1::::<><>::
 Sword Spinning 04.png::CompressedTexture2D::802968690550942487::1694667817::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword/23-Sword Embedded/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword/23-Sword Embedded/::1695098949
 Sword Embedded 01.png::CompressedTexture2D::2357196061232238226::1694667817::1694667824::1::::<><>::
 Sword Embedded 02.png::CompressedTexture2D::6785715177437638549::1694667817::1694667824::1::::<><>::
 Sword Embedded 03.png::CompressedTexture2D::1427139017202303665::1694667818::1694667824::1::::<><>::
 Sword Embedded 04.png::CompressedTexture2D::3067194889192263295::1694667818::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/::1694667818
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/24-Attack 1/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/::1695098949
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/24-Attack 1/::1695098949
 Attack 1 01.png::CompressedTexture2D::2860575335006402834::1694667818::1694667824::1::::<><>::
 Attack 1 02.png::CompressedTexture2D::8727634936757962063::1694667818::1694667824::1::::<><>::
 Attack 1 03.png::CompressedTexture2D::269240386341938262::1694667818::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/25-Attack 2/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/25-Attack 2/::1695098949
 Attack 2 01.png::CompressedTexture2D::118715667599625734::1694667818::1694667824::1::::<><>::
 Attack 2 02.png::CompressedTexture2D::2647954634948324986::1694667818::1694667824::1::::<><>::
 Attack 2 03.png::CompressedTexture2D::4056834689179604836::1694667818::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/26-Attack 3/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/26-Attack 3/::1695098949
 Attack 3 01.png::CompressedTexture2D::7057973917182085552::1694667818::1694667824::1::::<><>::
 Attack 3 02.png::CompressedTexture2D::8523669821297954988::1694667818::1694667824::1::::<><>::
 Attack 3 03.png::CompressedTexture2D::4366504594052762380::1694667818::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/27-Air Attack 1/::1694667824
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/27-Air Attack 1/::1695098949
 Air Attack 1 01.png::CompressedTexture2D::2732214809291959118::1694667818::1694667824::1::::<><>::
 Air Attack 1 02.png::CompressedTexture2D::898117701188488506::1694667818::1694667824::1::::<><>::
-::res://Imports/Captain/Captain Clown Nose/Sword Effects/28-Air Attack 2/::1694667827
+::res://Imports/Captain/Captain Clown Nose/Sword Effects/28-Air Attack 2/::1695098949
 Air Attack 2 01.png::CompressedTexture2D::217700240927059616::1694667818::1694667824::1::::<><>::
 Air Attack 2 02.png::CompressedTexture2D::4034732951525232308::1694667818::1694667827::1::::<><>::
-::res://Imports/Captain/Dialogue/::1694667818
-::res://Imports/Captain/Dialogue/Dead/::1694667827
+::res://Imports/Captain/Dialogue/::1695098950
+::res://Imports/Captain/Dialogue/Dead/::1695098950
 Dead In 01.png::CompressedTexture2D::2749671021647674460::1694667818::1694667827::1::::<><>::
 Dead In 02.png::CompressedTexture2D::2903954134859341362::1694667818::1694667827::1::::<><>::
 Dead In 03.png::CompressedTexture2D::4139642754952573199::1694667818::1694667827::1::::<><>::
 Dead Out 01.png::CompressedTexture2D::7924398992083809562::1694667818::1694667827::1::::<><>::
 Dead Out 02.png::CompressedTexture2D::4883323146248084732::1694667818::1694667827::1::::<><>::
-::res://Imports/Captain/Dialogue/Exclamation/::1694667826
+::res://Imports/Captain/Dialogue/Exclamation/::1695098950
 Exclamation In 01.png::CompressedTexture2D::925151085148368303::1694667818::1694667826::1::::<><>::
 Exclamation In 02.png::CompressedTexture2D::1954888069221257485::1694667818::1694667826::1::::<><>::
 Exclamation In 03.png::CompressedTexture2D::960216393704428372::1694667818::1694667826::1::::<><>::
 Exclamation Out 01.png::CompressedTexture2D::3865192577623638980::1694667818::1694667826::1::::<><>::
 Exclamation Out 02.png::CompressedTexture2D::1775895542417650236::1694667818::1694667826::1::::<><>::
-::res://Imports/Captain/Dialogue/Interrogation/::1694667826
+::res://Imports/Captain/Dialogue/Interrogation/::1695098950
 Interrogation In 01.png::CompressedTexture2D::3176318044225236970::1694667818::1694667826::1::::<><>::
 Interrogation In 02.png::CompressedTexture2D::8141134051483352832::1694667818::1694667826::1::::<><>::
 Interrogation In 03.png::CompressedTexture2D::4681136711147321732::1694667818::1694667826::1::::<><>::
 Interrogation Out 01.png::CompressedTexture2D::1030291113098545221::1694667818::1694667826::1::::<><>::
 Interrogation Out 02.png::CompressedTexture2D::2431598628921409665::1694667818::1694667826::1::::<><>::
-::res://Imports/Captain/Dust Particles/::1694667839
+::res://Imports/Captain/Dust Particles/::1695098950
 Fall 01.png::CompressedTexture2D::3396836290256453791::1694667818::1694667826::1::::<><>::
 Fall 02.png::CompressedTexture2D::315808803783277305::1694667818::1694667826::1::::<><>::
 Fall 03.png::CompressedTexture2D::5067218494576134200::1694667818::1694667826::1::::<><>::
@@ -189,8 +189,8 @@ Run 02.png::CompressedTexture2D::7402913834334007755::1694667818::1694667839::1:
 Run 03.png::CompressedTexture2D::2679030300962467600::1694667818::1694667838::1::::<><>::
 Run 04.png::CompressedTexture2D::456237234259472966::1694667818::1694667825::1::::<><>::
 Run 05.png::CompressedTexture2D::3873002667101264642::1694667818::1694667825::1::::<><>::
-::res://Imports/IslandSprites/::1692064990
-::res://Imports/IslandSprites/Back Palm Trees/::1692064990
+::res://Imports/IslandSprites/::1695098952
+::res://Imports/IslandSprites/Back Palm Trees/::1695098950
 Back Palm Tree Left 01.png::CompressedTexture2D::2050669909894534911::1692064990::1692064990::1::::<><>::
 Back Palm Tree Left 02.png::CompressedTexture2D::5975124509888344432::1692064990::1692064990::1::::<><>::
 Back Palm Tree Left 03.png::CompressedTexture2D::1839531646699342465::1692064990::1692064990::1::::<><>::
@@ -203,7 +203,7 @@ Back Palm Tree Right 01.png::CompressedTexture2D::213328306827247124::1692064990
 Back Palm Tree Right 02.png::CompressedTexture2D::5107537694604937537::1692064990::1692064990::1::::<><>::
 Back Palm Tree Right 03.png::CompressedTexture2D::3667046255533526094::1692064990::1692064990::1::::<><>::
 Back Palm Tree Right 04.png::CompressedTexture2D::5200175482089541400::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Background/::1692064990
+::res://Imports/IslandSprites/Background/::1695098951
 Additional Sky.png::CompressedTexture2D::5997234664884269309::1692064990::1692064990::1::::<><>::
 Additional Water.png::CompressedTexture2D::1538204331110663259::1692064990::1692064990::1::::<><>::
 BG Image.png::CompressedTexture2D::3876043630900338395::1692064990::1692064990::1::::<><>::
@@ -224,14 +224,14 @@ Water Reflect Small 01.png::CompressedTexture2D::7543858716798981747::1692064990
 Water Reflect Small 02.png::CompressedTexture2D::3073306595900342418::1692064990::1692064990::1::::<><>::
 Water Reflect Small 03.png::CompressedTexture2D::1112034643958517958::1692064990::1692064990::1::::<><>::
 Water Reflect Small 04.png::CompressedTexture2D::2919378316571598494::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Front Palm Trees/::1692064990
+::res://Imports/IslandSprites/Front Palm Trees/::1695098951
 Front Palm Bottom and Grass (32x32).png::CompressedTexture2D::6820367569289328174::1692064990::1692064990::1::::<><>::
 Front Palm Tree Top 01.png::CompressedTexture2D::1633468053717959768::1692064990::1692064990::1::::<><>::
 Front Palm Tree Top 02.png::CompressedTexture2D::2883902387990653199::1692064990::1692064990::1::::<><>::
 Front Palm Tree Top 03.png::CompressedTexture2D::5455651918714148106::1692064990::1692064990::1::::<><>::
 Front Palm Tree Top 04.png::CompressedTexture2D::6167944043703144559::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Objects/::1692064990
-::res://Imports/IslandSprites/Objects/Chest/::1692064990
+::res://Imports/IslandSprites/Objects/::1695098952
+::res://Imports/IslandSprites/Objects/Chest/::1695098951
 Chest Close 01.png::CompressedTexture2D::2383285268806257333::1692064990::1692064990::1::::<><>::
 Chest Close 02.png::CompressedTexture2D::2612284754096113340::1692064990::1692064990::1::::<><>::
 Chest Close 03.png::CompressedTexture2D::6560358899777447957::1692064990::1692064990::1::::<><>::
@@ -252,7 +252,7 @@ Chest Open 07.png::CompressedTexture2D::864948695477562131::1692064990::16920649
 Chest Open 08.png::CompressedTexture2D::8432604462488978994::1692064990::1692064990::1::::<><>::
 Chest Open 09.png::CompressedTexture2D::1115482093585608129::1692064990::1692064990::1::::<><>::
 Chest Open 10.png::CompressedTexture2D::5095466618214234650::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Objects/Flag/::1692064990
+::res://Imports/IslandSprites/Objects/Flag/::1695098952
 Flag 01.png::CompressedTexture2D::2779319365523648018::1692064990::1692064990::1::::<><>::
 Flag 02.png::CompressedTexture2D::4488446834464273842::1692064990::1692064990::1::::<><>::
 Flag 03.png::CompressedTexture2D::1534601423737896204::1692064990::1692064990::1::::<><>::
@@ -263,7 +263,7 @@ Flag 07.png::CompressedTexture2D::829603327498483910::1692064990::1692064990::1:
 Flag 08.png::CompressedTexture2D::144900837497357746::1692064990::1692064990::1::::<><>::
 Flag 09.png::CompressedTexture2D::6255753001374291035::1692064990::1692064990::1::::<><>::
 Platform.png::CompressedTexture2D::1894369057029502819::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Objects/Ship Helm/::1692064990
+::res://Imports/IslandSprites/Objects/Ship Helm/::1695098952
 Ship Helm Idle 01.png::CompressedTexture2D::2414959365663833769::1692064990::1692064990::1::::<><>::
 Ship Helm Idle 02.png::CompressedTexture2D::3720370054336774624::1692064990::1692064990::1::::<><>::
 Ship Helm Idle 03.png::CompressedTexture2D::5154354180297785903::1692064990::1692064990::1::::<><>::
@@ -274,45 +274,45 @@ Ship Helm Turn 01.png::CompressedTexture2D::3936330314032715664::1692064990::169
 Ship Helm Turn 02.png::CompressedTexture2D::1228021384494739099::1692064990::1692064990::1::::<><>::
 Ship Helm Turn 03.png::CompressedTexture2D::7150227154000161612::1692064990::1692064990::1::::<><>::
 Ship Helm Turn 04.png::CompressedTexture2D::3752781271516960016::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Objects/Spikes/::1692064990
+::res://Imports/IslandSprites/Objects/Spikes/::1695098952
 Spikes.png::CompressedTexture2D::972771052081289979::1692064990::1692064990::1::::<><>::
-::res://Imports/IslandSprites/Terrain/::1692064990
+::res://Imports/IslandSprites/Terrain/::1695098952
 Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/::1692064990
-::res://Imports/MerchantShip/Barrel/::1692064990
-::res://Imports/MerchantShip/Barrel/Destroyed/::1692064990
+::res://Imports/MerchantShip/::1695098954
+::res://Imports/MerchantShip/Barrel/::1695098952
+::res://Imports/MerchantShip/Barrel/Destroyed/::1695098952
 1.png::CompressedTexture2D::7861091240140175774::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::6295449755745079763::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::4531758061533576168::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::241127820662193457::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::1036078147833816111::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Barrel/Hit/::1692064990
+::res://Imports/MerchantShip/Barrel/Hit/::1695098952
 1.png::CompressedTexture2D::8394377829249565534::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3387370589143722074::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2381272633194855471::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::1312462794751953796::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Barrel/Idle/::1692064990
+::res://Imports/MerchantShip/Barrel/Idle/::1695098952
 1.png::CompressedTexture2D::962535818701373739::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Box/::1692064990
-::res://Imports/MerchantShip/Box/Destroyed/::1692064990
+::res://Imports/MerchantShip/Box/::1695098952
+::res://Imports/MerchantShip/Box/Destroyed/::1695098952
 1.png::CompressedTexture2D::1179958308572709759::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::1301262907108580639::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1199543621970560884::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::694400606619739436::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::3787935873419537119::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Box/Hit/::1692064990
+::res://Imports/MerchantShip/Box/Hit/::1695098952
 1.png::CompressedTexture2D::3592704596597253110::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::5563103297009604037::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2629066919383887550::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::9155817917918156059::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Box/Idle/::1692064990
+::res://Imports/MerchantShip/Box/Idle/::1695098952
 1.png::CompressedTexture2D::3141736902536976068::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Chest/::1692064990
-::res://Imports/MerchantShip/Chest/Idle/::1692064990
+::res://Imports/MerchantShip/Chest/::1695098953
+::res://Imports/MerchantShip/Chest/Idle/::1695098952
 1.png::CompressedTexture2D::1510790267265567224::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Chest/Padlock/::1692064990
+::res://Imports/MerchantShip/Chest/Padlock/::1695098953
 1.png::CompressedTexture2D::7022281686965899844::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Chest/Unlocked/::1692064990
+::res://Imports/MerchantShip/Chest/Unlocked/::1695098953
 1.png::CompressedTexture2D::4170084174540674696::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::1124283760905652170::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1758074823156913186::1692064990::1692064990::1::::<><>::
@@ -321,13 +321,13 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 6.png::CompressedTexture2D::4990585839884998122::1692064990::1692064990::1::::<><>::
 7.png::CompressedTexture2D::7795107953379905725::1692064990::1692064990::1::::<><>::
 8.png::CompressedTexture2D::8914559461854951400::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Chest Key/::1692064990
-::res://Imports/MerchantShip/Chest Key/Effect/::1692064990
+::res://Imports/MerchantShip/Chest Key/::1695098953
+::res://Imports/MerchantShip/Chest Key/Effect/::1695098953
 1.png::CompressedTexture2D::7220761885562835678::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4934495830568299214::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3910685842809574312::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::3870537050971742763::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Chest Key/Idle/::1692064990
+::res://Imports/MerchantShip/Chest Key/Idle/::1695098953
 1.png::CompressedTexture2D::6619746298981195751::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::5635411644427307291::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1796756715165663123::1692064990::1692064990::1::::<><>::
@@ -336,16 +336,16 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 6.png::CompressedTexture2D::2746876753867897126::1692064990::1692064990::1::::<><>::
 7.png::CompressedTexture2D::8549703628846140112::1692064990::1692064990::1::::<><>::
 8.png::CompressedTexture2D::8512049009179509819::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/::1692064990
-::res://Imports/MerchantShip/Ship/Anchor/::1692064990
+::res://Imports/MerchantShip/Ship/::1695098954
+::res://Imports/MerchantShip/Ship/Anchor/::1695098953
 1.png::CompressedTexture2D::5827603073129482462::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4996208776498800335::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Destroyed/::1692064990
+::res://Imports/MerchantShip/Ship/Destroyed/::1695098953
 1.png::CompressedTexture2D::2000385289107942098::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::641538359416411573::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::56225904404449810::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Sail/::1692064990
-::res://Imports/MerchantShip/Ship/Sail/No Wind/::1692064990
+::res://Imports/MerchantShip/Ship/Sail/::1695098954
+::res://Imports/MerchantShip/Ship/Sail/No Wind/::1695098953
 1.png::CompressedTexture2D::1075063422078999220::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::7831475610469109626::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2415025270079848373::1692064990::1692064990::1::::<><>::
@@ -354,68 +354,68 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 6.png::CompressedTexture2D::8934425831707827637::1692064990::1692064990::1::::<><>::
 7.png::CompressedTexture2D::4419755721689735379::1692064990::1692064990::1::::<><>::
 8.png::CompressedTexture2D::637216249141552959::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Sail/Transition to No Wind/::1692064990
+::res://Imports/MerchantShip/Ship/Sail/Transition to No Wind/::1695098953
 1.png::CompressedTexture2D::5180339413987880768::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::246006764866163647::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::4967493264929230134::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Sail/Transition to Wind/::1692064990
+::res://Imports/MerchantShip/Ship/Sail/Transition to Wind/::1695098953
 1.png::CompressedTexture2D::4711917933294969700::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::6610265138664941230::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1180645887289675470::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Sail/Wind/::1692064990
+::res://Imports/MerchantShip/Ship/Sail/Wind/::1695098954
 1.png::CompressedTexture2D::5247470519852141189::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::657638150928518478::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3310906663885803173::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::5775414568088583480::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Ship/::1692064990
-::res://Imports/MerchantShip/Ship/Ship/Hit/::1692064990
+::res://Imports/MerchantShip/Ship/Ship/::1695098954
+::res://Imports/MerchantShip/Ship/Ship/Hit/::1695098954
 1.png::CompressedTexture2D::8086389107171972161::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4079111116418871140::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::4528422904427265055::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::1705426078026609307::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Ship/Ship/Idle/::1692064990
+::res://Imports/MerchantShip/Ship/Ship/Idle/::1695098954
 1.png::CompressedTexture2D::7959403706837476039::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::2560150882356150515::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7444390137328693780::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::4805626308559727726::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::1693408383765932419::1692064990::1692064990::1::::<><>::
 6.png::CompressedTexture2D::950231827574677230::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/::1692064990
-::res://Imports/MerchantShip/Water/Reflexes 1/::1692064990
+::res://Imports/MerchantShip/Water/::1695098954
+::res://Imports/MerchantShip/Water/Reflexes 1/::1695098954
 1.png::CompressedTexture2D::386188783314962433::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::5031205579626341976::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2389205204577698904::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::6352501276199610396::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::391932512790100930::1692064990::1692064990::1::::<><>::
 6.png::CompressedTexture2D::705747338076822127::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/Reflexes 2/::1692064990
+::res://Imports/MerchantShip/Water/Reflexes 2/::1695098954
 1.png::CompressedTexture2D::453440323102104931::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::2663162316017044427::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2183343062016216007::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::1929696908233956963::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::308143004178794516::1692064990::1692064990::1::::<><>::
 6.png::CompressedTexture2D::7640955811315352641::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/Water/::1692064990
-::res://Imports/MerchantShip/Water/Water/Bottom/::1692064990
+::res://Imports/MerchantShip/Water/Water/::1695098954
+::res://Imports/MerchantShip/Water/Water/Bottom/::1695098954
 1.png::CompressedTexture2D::2793161121487919901::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/Water/Top/::1692064990
+::res://Imports/MerchantShip/Water/Water/Top/::1695098954
 1.png::CompressedTexture2D::336765349230208788::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::8753329432162490422::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7447590235047187731::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::2026824491545252358::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/Water Splash 1/::1692064990
+::res://Imports/MerchantShip/Water/Water Splash 1/::1695098954
 1.png::CompressedTexture2D::2618978958210941378::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3603408930517315167::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::8569359334782230611::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::6454680570868237070::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::4297635961544480359::1692064990::1692064990::1::::<><>::
-::res://Imports/MerchantShip/Water/Water Splash 2/::1692064990
+::res://Imports/MerchantShip/Water/Water Splash 2/::1695098954
 1.png::CompressedTexture2D::4529324443985797976::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3825318950172337164::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2156154613564475279::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::3118955195057825663::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/::1692064990
-::res://Imports/UI/Big Banner/::1692064990
+::res://Imports/UI/::1695098962
+::res://Imports/UI/Big Banner/::1695098955
 1.png::CompressedTexture2D::1467523242987645020::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::9077805092210345968::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1886595238532950745::1692064990::1692064990::1::::<><>::
@@ -450,7 +450,7 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 32.png::CompressedTexture2D::2822373082687974906::1692064990::1692064990::1::::<><>::
 33.png::CompressedTexture2D::4452352605922717312::1692064990::1692064990::1::::<><>::
 Big Banner (guide).png::CompressedTexture2D::2259064381699167401::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Big Text/::1692064990
+::res://Imports/UI/Big Text/::1695098956
 1.png::CompressedTexture2D::6186284870190968278::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3639198894941835404::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::8363695461466038189::1692064990::1692064990::1::::<><>::
@@ -488,7 +488,7 @@ Big Banner (guide).png::CompressedTexture2D::2259064381699167401::1692064990::16
 35.png::CompressedTexture2D::7812920818537343674::1692064990::1692064990::1::::<><>::
 36.png::CompressedTexture2D::3965436874898066340::1692064990::1692064990::1::::<><>::
 spritesheet.png::CompressedTexture2D::3051830198096300393::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Green Board/::1692064990
+::res://Imports/UI/Green Board/::1695098956
 1.png::CompressedTexture2D::5873374106561880270::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4298784525103108277::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1147562248697309572::1692064990::1692064990::1::::<><>::
@@ -506,7 +506,7 @@ spritesheet.png::CompressedTexture2D::3051830198096300393::1692064990::169206499
 15.png::CompressedTexture2D::3765037988584013284::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::445393216114218248::1692064990::1692064990::1::::<><>::
 Green Board (guide).png::CompressedTexture2D::2623109130634699161::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Green Button/::1694665789
+::res://Imports/UI/Green Button/::1695098957
 1.png::CompressedTexture2D::8902780615934168177::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4896789860407915430::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::5789854140919229987::1692064990::1692064990::1::::<><>::
@@ -525,7 +525,7 @@ Green Board (guide).png::CompressedTexture2D::2623109130634699161::1692064990::1
 16.png::CompressedTexture2D::7988051618668799649::1692064990::1692064990::1::::<><>::
 Green Button (guide).png::CompressedTexture2D::7862893462833467220::1692064990::1692064990::1::::<><>::
 LongButton.png::CompressedTexture2D::1520243452105223938::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Inventory/::1692064990
+::res://Imports/UI/Inventory/::1695098957
 1.png::CompressedTexture2D::1769614221852510611::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::8161877294455062148::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::6737987302928938256::1692064990::1692064990::1::::<><>::
@@ -543,31 +543,31 @@ LongButton.png::CompressedTexture2D::1520243452105223938::1692064990::1692064990
 15.png::CompressedTexture2D::245978362412179477::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::485334329291563969::1692064990::1692064990::1::::<><>::
 Inventory (guide).png::CompressedTexture2D::5280644935909050682::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Life Bars/::1692064990
-::res://Imports/UI/Life Bars/Big Bars/::1692064990
+::res://Imports/UI/Life Bars/::1695098957
+::res://Imports/UI/Life Bars/Big Bars/::1695098957
 1.png::CompressedTexture2D::6367683402427303757::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::2481125665657831802::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3034633446305173143::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::4194084913828461465::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Life Bars/Colors/::1692064990
+::res://Imports/UI/Life Bars/Colors/::1695098957
 1.png::CompressedTexture2D::2415791214228406813::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::2496113770850854444::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::4915917372374989066::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::6204562499218935702::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Life Bars/Medium Bars/::1692064990
+::res://Imports/UI/Life Bars/Medium Bars/::1695098957
 1.png::CompressedTexture2D::1055472523084953187::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::6990709647665436397::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7396953531742824336::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::3775092824532184375::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::1003723070473839295::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Life Bars/Small Bars/::1692064990
+::res://Imports/UI/Life Bars/Small Bars/::1695098958
 1.png::CompressedTexture2D::1552619418176230179::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::6882237373234480869::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::5047600481194672516::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::168124272086501682::1692064990::1692064990::1::::<><>::
 5.png::CompressedTexture2D::7628990409639609935::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Mobile Buttons/::1692064990
-::res://Imports/UI/Mobile Buttons/Mobile Buttons/::1692064990
+::res://Imports/UI/Mobile Buttons/::1695098958
+::res://Imports/UI/Mobile Buttons/Mobile Buttons/::1695098958
 1.png::CompressedTexture2D::8371218542400429582::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3346514683370003955::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::1367197670382354475::1692064990::1692064990::1::::<><>::
@@ -576,7 +576,7 @@ Inventory (guide).png::CompressedTexture2D::5280644935909050682::1692064990::169
 6.png::CompressedTexture2D::6567986130359602653::1692064990::1692064990::1::::<><>::
 7.png::CompressedTexture2D::1854423607262620810::1692064990::1692064990::1::::<><>::
 8.png::CompressedTexture2D::6397754396873146044::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Mobile Buttons/Mobile Buttons Cooldown/::1692064990
+::res://Imports/UI/Mobile Buttons/Mobile Buttons Cooldown/::1695098958
 1.png::CompressedTexture2D::6595050053924738369::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::448745950042364319::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7741507267770307242::1692064990::1692064990::1::::<><>::
@@ -589,7 +589,7 @@ Inventory (guide).png::CompressedTexture2D::5280644935909050682::1692064990::169
 10.png::CompressedTexture2D::3531339834707320417::1692064990::1692064990::1::::<><>::
 11.png::CompressedTexture2D::5582583487506870901::1692064990::1692064990::1::::<><>::
 12.png::CompressedTexture2D::9040271920019396375::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Orange Paper/::1692064990
+::res://Imports/UI/Orange Paper/::1695098958
 1.png::CompressedTexture2D::3106280022877112145::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::457173520845116763::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3513864282601655465::1692064990::1692064990::1::::<><>::
@@ -607,7 +607,7 @@ Inventory (guide).png::CompressedTexture2D::5280644935909050682::1692064990::169
 15.png::CompressedTexture2D::3033634481861133592::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::7857344431686359081::1692064990::1692064990::1::::<><>::
 Orange Paper (guide).png::CompressedTexture2D::6268536750340168578::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Prefabs/::1692064990
+::res://Imports/UI/Prefabs/::1695098959
 1.png::CompressedTexture2D::48010754955522428::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::1346648481560818891::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3233570893468080194::1692064990::1692064990::1::::<><>::
@@ -620,7 +620,7 @@ Orange Paper (guide).png::CompressedTexture2D::6268536750340168578::1692064990::
 10.png::CompressedTexture2D::1344362626061863558::1692064990::1692064990::1::::<><>::
 11.png::CompressedTexture2D::5260416052501999240::1692064990::1692064990::1::::<><>::
 12.png::CompressedTexture2D::450599273310772956::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Sliders/::1692064990
+::res://Imports/UI/Sliders/::1695098959
 1.png::CompressedTexture2D::9082842589654160764::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3154563496116275618::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2984117861137612266::1692064990::1692064990::1::::<><>::
@@ -631,7 +631,7 @@ Orange Paper (guide).png::CompressedTexture2D::6268536750340168578::1692064990::
 8.png::CompressedTexture2D::2472695540871954990::1692064990::1692064990::1::::<><>::
 9.png::CompressedTexture2D::4486411877234725394::1692064990::1692064990::1::::<><>::
 10.png::CompressedTexture2D::5966947598869653341::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Small Banner/::1692064990
+::res://Imports/UI/Small Banner/::1695098959
 1.png::CompressedTexture2D::159003182682263361::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::1878070150179470041::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7589987082578101032::1692064990::1692064990::1::::<><>::
@@ -646,8 +646,8 @@ Orange Paper (guide).png::CompressedTexture2D::6268536750340168578::1692064990::
 12.png::CompressedTexture2D::2131346325573747090::1692064990::1692064990::1::::<><>::
 13.png::CompressedTexture2D::1629956878858158878::1692064990::1692064990::1::::<><>::
 Small Banner (guide).png::CompressedTexture2D::1453653230522929690::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Small Text/::1692064990
-::res://Imports/UI/Small Text/Small Icons/::1692064990
+::res://Imports/UI/Small Text/::1695098961
+::res://Imports/UI/Small Text/Small Icons/::1695098960
 1.png::CompressedTexture2D::6714372275447387608::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::4119426939174037523::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::8413566802517655449::1692064990::1692064990::1::::<><>::
@@ -673,7 +673,7 @@ Small Banner (guide).png::CompressedTexture2D::1453653230522929690::1692064990::
 23.png::CompressedTexture2D::76340684930685322::1692064990::1692064990::1::::<><>::
 24.png::CompressedTexture2D::5244338664047807066::1692064990::1692064990::1::::<><>::
 25.png::CompressedTexture2D::7677410543950531445::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Small Text/Small Text/::1692064990
+::res://Imports/UI/Small Text/Small Text/::1695098961
 1.png::CompressedTexture2D::716333511337337436::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::5277331919743328103::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::8429405513120941101::1692064990::1692064990::1::::<><>::
@@ -726,12 +726,12 @@ Small Banner (guide).png::CompressedTexture2D::1453653230522929690::1692064990::
 50.png::CompressedTexture2D::2565670014680367618::1692064990::1692064990::1::::<><>::
 51.png::CompressedTexture2D::2327607822116101324::1692064990::1692064990::1::::<><>::
 52.png::CompressedTexture2D::4710267607856973726::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Small Text/White Bar/::1692064990
+::res://Imports/UI/Small Text/White Bar/::1695098961
 1.png::CompressedTexture2D::7358538967632967960::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::3941118381970808559::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::7501341691382191531::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::6868374826097250915::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Yellow Board/::1692064990
+::res://Imports/UI/Yellow Board/::1695098961
 1.png::CompressedTexture2D::7306938244164390660::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::2054111638113263757::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::6256701440643737859::1692064990::1692064990::1::::<><>::
@@ -749,7 +749,7 @@ Small Banner (guide).png::CompressedTexture2D::1453653230522929690::1692064990::
 15.png::CompressedTexture2D::5206517475635522582::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::8033804409052767010::1692064990::1692064990::1::::<><>::
 Yellow Board (guide).png::CompressedTexture2D::4107396578882234346::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Yellow Button/::1692064990
+::res://Imports/UI/Yellow Button/::1695098962
 1.png::CompressedTexture2D::1108307920562171745::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::8142281048147921688::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::6737066260401217562::1692064990::1692064990::1::::<><>::
@@ -767,7 +767,7 @@ Yellow Board (guide).png::CompressedTexture2D::4107396578882234346::1692064990::
 15.png::CompressedTexture2D::6412980572885413992::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::7941965896279621107::1692064990::1692064990::1::::<><>::
 Yellow Button (guide).png::CompressedTexture2D::5780326777972777937::1692064990::1692064990::1::::<><>::
-::res://Imports/UI/Yellow Paper/::1692064990
+::res://Imports/UI/Yellow Paper/::1695098962
 1.png::CompressedTexture2D::8867209602410530467::1692064990::1692064990::1::::<><>::
 2.png::CompressedTexture2D::8166286722244921917::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::3908205629700292597::1692064990::1692064990::1::::<><>::
@@ -785,15 +785,15 @@ Yellow Button (guide).png::CompressedTexture2D::5780326777972777937::1692064990:
 15.png::CompressedTexture2D::6089266110200292150::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::5927093957529630252::1692064990::1692064990::1::::<><>::
 Yellow Paper (guide).png::CompressedTexture2D::6238631711508463068::1692064990::1692064990::1::::<><>::
-::res://ProjectResourses/::1695049489
+::res://ProjectResourses/::1695098962
 Terrain.res::TileSet::5090237910441449316::1692064990::0::1::::<><>::uid://ck613dgx3g2q7
 UI.res::TileSet::1549281833842111476::1692064990::0::1::::<><>::uid://bdmwhvdvbiwxd
 WaterFront.res::SpriteFrames::1849265983333275695::1692064990::0::1::::<><>::uid://gpwdi3gt3hwl
-::res://Scenes/::1695092774
+::res://Scenes/::1695098962
 Game.tscn::PackedScene::1142178234429337981::1695092774::0::1::::<><>::uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>res://Scripts/Game.gd<>uid://cer0qe0j47rsm::::res://ProjectResourses/Terrain.res<>uid://blaxi3pa8rmw4::::res://Imports/UI/Small Text/Small Icons/10.png<>uid://gl0tc0jjgq2s::::res://Imports/UI/Green Board/16.png<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://3wu3llvar5if::::res://Imports/IslandSprites/Background/Big Clouds.png<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://cwn8y5fi0mdvu::::res://Imports/IslandSprites/Background/Water Reflect Big 01.png<>uid://b8tydcyinaa0f::::res://Imports/IslandSprites/Background/Water Reflect Big 02.png<>uid://db81tkuw74fsn::::res://Imports/IslandSprites/Background/Water Reflect Big 03.png<>uid://b182dkknhyvgr::::res://Imports/IslandSprites/Background/Water Reflect Big 04.png<>uid://3ibata3h365n::::res://Charecters/Player.tscn
 MainMenue.tscn::PackedScene::478087787091029796::1695092773::0::1::::<><>::uid://vwogm2kicvew::::res://Imports/UI/Green Button/LongButton.png<>uid://ltqwqxxa1i5w::::res://Scenes/MainMenueBG.tscn<>res://Scripts/MainMenue.gd<>uid://wcqpe68rap7i::::res://ProjectResourses/UI.res<>uid://c0bf3gqekg74m::::res://Imports/Chonkly.otf<>uid://drfo3vxyw3ls4::::res://Imports/UI/Big Text/3.png<>uid://cuexhcovgufqc::::res://Imports/UI/Big Text/1.png<>uid://bmjf4kq1a4xo5::::res://Imports/UI/Big Text/16.png<>uid://dflyks8ih2t8f::::res://Imports/UI/Big Text/20.png<>uid://bqntgjvo8kbve::::res://Imports/UI/Big Text/9.png<>uid://w4nb4k1hmvq3::::res://Imports/UI/Big Text/14.png<>uid://k58sle2huna::::res://Imports/UI/Big Text/4.png<>uid://bmmcuuqi2rp8c::::res://Imports/UI/Big Text/22.png<>uid://4uaxb8dfdv3e::::res://Imports/UI/Big Text/5.png<>uid://bt42gfpsedo4y::::res://Imports/UI/Big Text/21.png<>uid://ew67abqn5r58::::res://Imports/UI/Big Text/18.png
 MainMenueBG.tscn::PackedScene::812312093645813922::1694702752::0::1::::<><>::uid://bvht4wnbcbwsx
-::res://Scripts/::1695092774
+::res://Scripts/::1695098962
 Game.gd::GDScript::-1::1695050400::0::1::::<>Node2D<>::
 MainMenue.gd::GDScript::-1::1695049563::0::1::::<>Control<>::
 MainMenueBG.gd::GDScript::-1::1692064990::0::1::::<>Node2D<>::
