@@ -458,5 +458,6 @@ collide_with_areas = true
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("31_lkn8f")
 volume_db = 1.0
+bus = &"Player"
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

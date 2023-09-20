@@ -16,9 +16,9 @@ var was_in_air : bool = false
 
 func _process(delta):
 	shoot_ray()
-	if Input.is_action_just_pressed("left") || Input.is_action_just_pressed("right"):
+	if Input.is_action_just_pressed("left") || Input.is_action_just_pressed("right") && is_on_floor():
 		play_audio(true)
-	elif Input.is_action_just_released("left") || Input.is_action_just_released("right"):
+	elif Input.is_action_just_released("left") || Input.is_action_just_released("right") || is_on_floor() == false:
 		play_audio(false)
 func _physics_process(delta):
 	if not is_on_floor():
@@ -64,8 +64,6 @@ func update_animation():
 		else:
 			if direction.x != 0:
 				animated_sprite.play("run")
-				
-				
 			else:
 				animated_sprite.play("idle")
 
@@ -113,9 +111,8 @@ func rayRead():
 	if ray_cast_2d.is_colliding() == true:
 		pass
 func play_audio(start : bool):
-	if start:
+	while start:
 		$AudioStreamPlayer.play()
-		
-	elif !start:
 		await $AudioStreamPlayer.finished
+	if !start:
 		$AudioStreamPlayer.stop()
