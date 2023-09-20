@@ -60,6 +60,8 @@ func update_animation():
 		else:
 			if direction.x != 0:
 				animated_sprite.play("run")
+				
+				
 			else:
 				animated_sprite.play("idle")
 
@@ -105,4 +107,8 @@ func shoot_ray():
 func rayRead():
 	var body = ray_cast_2d.get_collider()
 	if ray_cast_2d.is_colliding() == true:
-		print(body.name)
+		pass
+func play_audio():
+	$AudioStreamPlayer.play()
+	await $AudioStreamPlayer.finished
+	

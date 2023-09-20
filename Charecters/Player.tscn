@@ -1,4 +1,4 @@
-[gd_scene load_steps=49 format=3 uid="uid://3ibata3h365n"]
+[gd_scene load_steps=50 format=3 uid="uid://3ibata3h365n"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_p8gjt"]
 [ext_resource type="Texture2D" uid="uid://f2bg7btl7d3a" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png" id="2_a1fcd"]
@@ -30,6 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://bib7ajop745d5" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png" id="20_m8of8"]
 [ext_resource type="Texture2D" uid="uid://xclpdhvxdo3t" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png" id="21_w4ojf"]
 [ext_resource type="Texture2D" uid="uid://d2b1jvinecsbx" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png" id="22_b2it7"]
+[ext_resource type="AudioStream" uid="uid://cw1ggvm5tmpn0" path="res://walk.wav" id="31_lkn8f"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r52fl"]
 radius = 28.0
@@ -455,5 +456,7 @@ target_position = Vector2(0, 0)
 collide_with_areas = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31_lkn8f")
+volume_db = 1.0
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
