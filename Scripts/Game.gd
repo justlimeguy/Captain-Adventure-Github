@@ -1,16 +1,23 @@
 extends Node2D
 
+@onready var player = preload("res://Charecters/Player.tscn")
+@onready var playerInstance = player.instantiate()
+func _ready():
 
-
+	add_child(playerInstance)
+	playerInstance.position = Vector2(100,100)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if Input.is_key_pressed(KEY_1):
+		playerInstance.queue_free()
 	$AnimationPlayer.play("Clouds")
 	$Water.play("default")
 	if Input.is_action_just_pressed("esc") && Gvars.is_paused == false:
 		pause()
 	if Input.is_action_pressed("jump") && Gvars.is_paused == true:
 		resume()
-		
+
+
 func _on_pause_pressed():
 	pause()
 	$CanvasLayer/Pause.disabled = true

@@ -1,3 +1,5 @@
+res://GameResources/falling_spike.tscn
+res://GameResources/falling_spike/falling_spike.gd
 res://Scenes/MainMenue.tscn
 res://Scripts/Player.gd
 res://Scenes/Game.tscn
@@ -5,4 +7,4 @@ res://Charecters/Player.tscn
 res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res
-res://default_bus_layout.tres
+res://Scripts/Game.gd

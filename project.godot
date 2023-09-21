@@ -63,10 +63,6 @@ esc={
 ]
 }
 
-[internationalization]
-
-locale/translations=PackedStringArray("res://Untitled spreadsheet - Sheet1.hin.translation")
-
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
