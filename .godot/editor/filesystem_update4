@@ -1,1 +1,8 @@
+res://Scenes/MainMenue.tscn
+res://lime.theme
+res://Scenes/Game.tscn
+res://Charecters/Player.tscn
+res://Charecters/WoodShooter.scn
+res://GameResources/Keys.scn
+res://GameResources/Coins.res
 res://GameResources/falling_spike.tscn

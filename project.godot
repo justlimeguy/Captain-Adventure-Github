@@ -31,11 +31,6 @@ window/stretch/mode="viewport"
 
 enabled=PackedStringArray("res://addons/AS2P/plugin.cfg")
 
-[gui]
-
-theme/custom="res://lime.theme"
-theme/custom_font="res://8-BIT WONDER.TTF"
-
 [input]
 
 right={
