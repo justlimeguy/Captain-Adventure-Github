@@ -22,13 +22,19 @@ Gvars="*res://game_vars.gd"
 
 [display]
 
-window/size/viewport_width=960
-window/size/viewport_height=540
+window/size/viewport_width=384
+window/size/viewport_height=216
+window/size/mode=2
 window/stretch/mode="viewport"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/AS2P/plugin.cfg")
+
+[gui]
+
+theme/custom="res://lime.theme"
+theme/custom_font="res://8-BIT WONDER.TTF"
 
 [input]
 

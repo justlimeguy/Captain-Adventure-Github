@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=22 format=3 uid="uid://qjjrj836row8"]
 
 [ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="1_6q134"]
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
@@ -11,10 +11,31 @@
 [ext_resource type="FontFile" uid="uid://c0bf3gqekg74m" path="res://Imports/Chonkly.otf" id="9_kpsq8"]
 [ext_resource type="Texture2D" uid="uid://cwn8y5fi0mdvu" path="res://Imports/IslandSprites/Background/Water Reflect Big 01.png" id="10_akqsi"]
 [ext_resource type="Texture2D" uid="uid://b8tydcyinaa0f" path="res://Imports/IslandSprites/Background/Water Reflect Big 02.png" id="11_8ffsc"]
+[ext_resource type="Theme" uid="uid://c6n7e3xica7se" path="res://lime.theme" id="11_vo2gp"]
 [ext_resource type="Texture2D" uid="uid://db81tkuw74fsn" path="res://Imports/IslandSprites/Background/Water Reflect Big 03.png" id="12_sbve8"]
 [ext_resource type="Texture2D" uid="uid://b182dkknhyvgr" path="res://Imports/IslandSprites/Background/Water Reflect Big 04.png" id="13_jk06i"]
 [ext_resource type="PackedScene" uid="uid://btghm8bvf1ys" path="res://GameResources/Coins.res" id="15_3pl5h"]
 [ext_resource type="PackedScene" uid="uid://cdkkin5m0f0i1" path="res://GameResources/falling_spike.tscn" id="16_r6tkh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d8ea1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_akqsi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_8ffsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_sbve8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jk06i")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
 
 [sub_resource type="Animation" id="Animation_xmhib"]
 resource_name = "Clouds"
@@ -27,10 +48,10 @@ tracks/0/path = NodePath("AnimationPlayer/Clouds:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.0001, 0.0002, 30, 30.0004),
+"times": PackedFloat32Array(0.0001, 0.0002, 0.1, 30, 30.0004),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(429, 273), Vector2(-324, 272), Vector2(429, 273), Vector2(-531, 273), Vector2(-531, 273)]
+"values": [Vector2(-324, 272), Vector2(429, 273), Vector2(225, 131), Vector2(-391, 131), Vector2(-531, 273)]
 }
 
 [sub_resource type="Animation" id="Animation_lf474"]
@@ -58,44 +79,28 @@ _data = {
 "Wadert": SubResource("Animation_roy6d")
 }
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_d8ea1"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("10_akqsi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_8ffsc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_sbve8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_jk06i")
-}],
-"loop": true,
-"name": &"default",
-"speed": 10.0
-}]
-
 [node name="Game" type="Node2D"]
 script = ExtResource("1_301mx")
 
 [node name="BgImage" type="Sprite2D" parent="."]
 z_index = -2
-position = Vector2(483.5, 275)
-scale = Vector2(2.51823, 4.29688)
+scale = Vector2(1.00461, 2.08477)
 texture = ExtResource("1_6q134")
+offset = Vector2(192, 64)
+
+[node name="Water" type="AnimatedSprite2D" parent="BgImage"]
+position = Vector2(176, 98)
+scale = Vector2(1.27771, 0.567361)
+sprite_frames = SubResource("SpriteFrames_d8ea1")
+frame_progress = 0.580871
 
 [node name="Base" type="TileMap" parent="."]
-scale = Vector2(2.52156, 2.43049)
 tile_set = ExtResource("2_oayvo")
 cell_quadrant_size = 32
 format = 2
 layer_0/tile_data = PackedInt32Array(393216, 65536, 0, 393217, 65536, 0, 393218, 65536, 0, 393219, 65536, 0, 393220, 131072, 0, 393223, 0, 0, 393224, 65536, 0, 393225, 65536, 0, 393226, 65536, 0, 393227, 65536, 0, 65547, 0, 1, 11, 0, 1, 327691, 0, 1, 262155, 0, 1, 196619, 0, 1, 131083, 0, 1, 327680, 131072, 1, 262144, 131072, 1, 196608, 131072, 1, 131072, 131072, 1, 65536, 131072, 1, 0, 131072, 1, 458756, 131072, 1, 458759, 0, 1, 458755, 65536, 1, 458754, 65536, 1, 458753, 65536, 1, 458752, 65536, 1, 458760, 65536, 1, 458761, 65536, 1, 458762, 65536, 1, 458763, 65536, 1)
 
 [node name="Levels" type="TileMap" parent="."]
-scale = Vector2(2.52156, 2.43049)
 tile_set = ExtResource("2_oayvo")
 cell_quadrant_size = 32
 format = 2
@@ -111,10 +116,11 @@ layer_1/tile_data = PackedInt32Array(524293, 65536, 1, 524294, 65536, 1, 524295,
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Pause" type="TextureButton" parent="CanvasLayer"]
-offset_left = 877.0
-offset_top = 5.0
-offset_right = 954.0
-offset_bottom = 77.0
+offset_left = 332.0
+offset_top = 3.0
+offset_right = 409.0
+offset_bottom = 75.0
+scale = Vector2(0.547594, 0.572371)
 texture_normal = ExtResource("6_004sk")
 stretch_mode = 4
 
@@ -124,8 +130,7 @@ scale = Vector2(3.25, 5.33333)
 texture = ExtResource("5_7ks7q")
 
 [node name="PauseMenue" type="TileMap" parent="CanvasLayer"]
-visible = false
-scale = Vector2(3.169, 3.169)
+position = Vector2(45, 15)
 tile_set = ExtResource("7_3lqdg")
 cell_quadrant_size = 32
 format = 2
@@ -136,6 +141,7 @@ offset_left = 123.067
 offset_top = 46.0713
 offset_right = 165.067
 offset_bottom = 114.071
+theme = ExtResource("11_vo2gp")
 
 [node name="Resume" type="TextureButton" parent="CanvasLayer/PauseMenue/VBoxContainer"]
 layout_mode = 2
@@ -222,7 +228,6 @@ libraries = {
 [node name="Clouds" type="Node2D" parent="AnimationPlayer"]
 z_index = -1
 position = Vector2(429, 272)
-scale = Vector2(1.91445, 1.91445)
 
 [node name="Sprite2D" type="Sprite2D" parent="AnimationPlayer/Clouds"]
 position = Vector2(26.6394, -6.79047)
@@ -233,12 +238,6 @@ texture = ExtResource("9_ib5o7")
 position = Vector2(527.565, -6.79047)
 scale = Vector2(1.12237, 1.12237)
 texture = ExtResource("9_ib5o7")
-
-[node name="Water" type="AnimatedSprite2D" parent="."]
-position = Vector2(475, 402)
-scale = Vector2(3.21758, 2.43788)
-sprite_frames = SubResource("SpriteFrames_d8ea1")
-frame_progress = 0.580871
 
 [node name="Coins" parent="." instance=ExtResource("15_3pl5h")]
 position = Vector2(163, 433)

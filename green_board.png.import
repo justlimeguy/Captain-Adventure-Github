@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1mbojeq1p0bg"
-path="res://.godot/imported/Green Board (guide)2.png-2e44f26f9d4c4e2c020284d03b6102d5.ctex"
+uid="uid://dmnl8fpkofn2b"
+path="res://.godot/imported/green_board.png-5f816e4b44fdd3278fcb346a9e6a21e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Green Board (guide)2.png"
-dest_files=["res://.godot/imported/Green Board (guide)2.png-2e44f26f9d4c4e2c020284d03b6102d5.ctex"]
+source_file="res://green_board.png"
+dest_files=["res://.godot/imported/green_board.png-5f816e4b44fdd3278fcb346a9e6a21e2.ctex"]
 
 [params]
 

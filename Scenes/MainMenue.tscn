@@ -1,10 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://g2ubhvdj8lq7"]
+[gd_scene load_steps=14 format=3 uid="uid://g2ubhvdj8lq7"]
 
-[ext_resource type="Texture2D" uid="uid://vwogm2kicvew" path="res://Imports/UI/Green Button/LongButton.png" id="1_232xo"]
-[ext_resource type="PackedScene" uid="uid://ltqwqxxa1i5w" path="res://Scenes/MainMenueBG.tscn" id="1_bvkj2"]
 [ext_resource type="Script" path="res://Scripts/MainMenue.gd" id="1_wh0so"]
-[ext_resource type="TileSet" uid="uid://wcqpe68rap7i" path="res://ProjectResourses/UI.res" id="2_v824w"]
-[ext_resource type="FontFile" uid="uid://c0bf3gqekg74m" path="res://Imports/Chonkly.otf" id="5_bfsg7"]
 [ext_resource type="Texture2D" uid="uid://drfo3vxyw3ls4" path="res://Imports/UI/Big Text/3.png" id="6_iy6k6"]
 [ext_resource type="Texture2D" uid="uid://cuexhcovgufqc" path="res://Imports/UI/Big Text/1.png" id="7_5nkaf"]
 [ext_resource type="Texture2D" uid="uid://bmjf4kq1a4xo5" path="res://Imports/UI/Big Text/16.png" id="8_mvh2w"]
@@ -16,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://4uaxb8dfdv3e" path="res://Imports/UI/Big Text/5.png" id="14_ukqjf"]
 [ext_resource type="Texture2D" uid="uid://bt42gfpsedo4y" path="res://Imports/UI/Big Text/21.png" id="15_bj4ng"]
 [ext_resource type="Texture2D" uid="uid://ew67abqn5r58" path="res://Imports/UI/Big Text/18.png" id="16_ttdq8"]
+[ext_resource type="Theme" uid="uid://c6n7e3xica7se" path="res://lime.theme" id="17_77dyx"]
 
 [node name="MainMenue" type="Control"]
 layout_mode = 3
@@ -24,77 +21,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("17_77dyx")
 script = ExtResource("1_wh0so")
 metadata/_edit_horizontal_guides_ = []
 
-[node name="BGUI" type="TileMap" parent="."]
-scale = Vector2(3.2, 3.2)
-tile_set = ExtResource("2_v824w")
-cell_quadrant_size = 32
-format = 2
-layer_0/tile_data = PackedInt32Array(131073, 0, 1, 196609, 0, 1, 262145, 0, 2, 262148, 131072, 2, 131076, 131072, 1, 196612, 131072, 1, 262146, 65536, 2, 262147, 65536, 2, 131074, 65536, 1, 131075, 65536, 1, 196611, 65536, 1, 196610, 65536, 1, 1, 0, 0, 4, 131072, 0, 3, 65536, 0, 2, 65536, 0, 65537, 0, 1, 65540, 131072, 1, 65538, 65536, 1, 65539, 65536, 1)
-
-[node name="MainMenueBG" parent="." instance=ExtResource("1_bvkj2")]
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_right = 960.0
-offset_bottom = 537.0
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="Quit" type="TextureButton" parent="CanvasLayer"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 202.0
-offset_top = 286.0
-offset_right = -556.0
-offset_bottom = -170.0
-grow_horizontal = 2
-grow_vertical = 2
-texture_normal = ExtResource("1_232xo")
-stretch_mode = 0
-
-[node name="Label2" type="Label" parent="CanvasLayer/Quit"]
-layout_mode = 0
-offset_left = 63.0
-offset_top = 19.0
-offset_right = 144.0
-offset_bottom = 55.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("5_bfsg7")
-theme_override_font_sizes/font_size = 34
-text = "Quit"
-
-[node name="Play" type="TextureButton" parent="CanvasLayer"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 203.0
-offset_top = 196.0
-offset_right = -555.0
-offset_bottom = -260.0
-grow_horizontal = 2
-grow_vertical = 2
-texture_normal = ExtResource("1_232xo")
-stretch_mode = 0
-
-[node name="Label2" type="Label" parent="CanvasLayer/Play"]
-layout_mode = 0
-offset_left = 63.0
-offset_top = 19.0
-offset_right = 144.0
-offset_bottom = 55.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("5_bfsg7")
-theme_override_font_sizes/font_size = 34
-text = "Play
-"
-
 [node name="CaptianTxt" type="Node2D" parent="."]
-position = Vector2(172, 43)
-scale = Vector2(4, 4)
+z_index = 1
+position = Vector2(78, 35)
+scale = Vector2(1.16432, 1.25764)
 
 [node name="3" type="Sprite2D" parent="CaptianTxt"]
 position = Vector2(8, 13)
@@ -125,8 +59,9 @@ position = Vector2(61, 10)
 texture = ExtResource("11_4q6e3")
 
 [node name="AdventureTxt" type="Node2D" parent="."]
-position = Vector2(225, 115)
-scale = Vector2(2, 2)
+z_index = 1
+position = Vector2(101, 58)
+scale = Vector2(0.776166, 0.776166)
 
 [node name="1" type="Sprite2D" parent="AdventureTxt"]
 position = Vector2(5, 5)
@@ -164,5 +99,44 @@ texture = ExtResource("16_ttdq8")
 position = Vector2(77, 8)
 texture = ExtResource("14_ukqjf")
 
-[connection signal="pressed" from="CanvasLayer/Quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="CanvasLayer/Play" to="." method="_on_play_pressed"]
+[node name="Menue Buttons" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 53.0
+offset_top = 23.0
+offset_right = -190.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menue Buttons"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -33.5
+offset_top = -33.5
+offset_right = 46.5
+offset_bottom = 76.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.81001, 0.81001)
+
+[node name="Play" type="Button" parent="Menue Buttons/VBoxContainer"]
+layout_mode = 2
+text = "  Play  "
+
+[node name="Options" type="Button" parent="Menue Buttons/VBoxContainer"]
+layout_mode = 2
+text = " Options "
+
+[node name="Quit" type="Button" parent="Menue Buttons/VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="Menue Buttons/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Menue Buttons/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

@@ -5,12 +5,12 @@ extends Node2D
 func _ready():
 
 	add_child(playerInstance)
-	playerInstance.position = Vector2(100,100)
+	playerInstance.position = Vector2(10,10)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 
 	$AnimationPlayer.play("Clouds")
-	$Water.play("default")
+	$BgImage/Water.play("default")
 	if Input.is_action_just_pressed("esc") && Gvars.is_paused == false:
 		pause()
 	if Input.is_action_pressed("jump") && Gvars.is_paused == true:
