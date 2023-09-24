@@ -26,7 +26,7 @@ func _physics_process(delta):
 		was_in_air = true
 
 	elif animated_sprite.animation == "fall":
-		velocity.y += gravity * 1000 * delta
+		velocity.y += gravity * 5 * delta
 		was_in_air = true
 
 	else:
@@ -111,8 +111,9 @@ func rayRead():
 	if ray_cast_2d.is_colliding() == true:
 		pass
 func play_audio(start : bool):
-	while start:
-		$AudioStreamPlayer.play()
-		await $AudioStreamPlayer.finished
-	if !start:
-		$AudioStreamPlayer.stop()
+#	while start:
+#		$AudioStreamPlayer.play()
+#		await $AudioStreamPlayer.finished
+#	if !start:
+#		$AudioStreamPlayer.stop()
+	pass

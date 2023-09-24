@@ -6,3 +6,6 @@ res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res
 res://GameResources/falling_spike.tscn
+res://Scripts/Game.gd
+res://Scripts/Player.gd
+res://ProjectResourses/Terrain.res

@@ -1,11 +1,6 @@
 extends Node2D
 
-@onready var player = preload("res://Charecters/Player.tscn")
-@onready var playerInstance = player.instantiate()
-func _ready():
 
-	add_child(playerInstance)
-	playerInstance.position = Vector2(10,10)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 

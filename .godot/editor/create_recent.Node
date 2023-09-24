@@ -1,8 +1,9 @@
+Camera2D
+PanelContainer
+Panel
 VBoxContainer
 Button
 HBoxContainer
-Panel
-PanelContainer
 Control
 Timer
 TextureRect
