@@ -1,10 +1,10 @@
-res://GameResources/falling_spike.tscn
-res://GameResources/falling_spike/falling_spike.gd
 res://Scenes/MainMenue.tscn
-res://Scripts/Player.gd
+res://Scripts/MainMenue.gd
 res://Scenes/Game.tscn
 res://Charecters/Player.tscn
 res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res
-res://Scripts/Game.gd
+res://GameResources/falling_spike.tscn
+res://Control.gd
+res://control.tscn

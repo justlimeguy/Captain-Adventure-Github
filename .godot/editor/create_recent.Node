@@ -1,3 +1,5 @@
+Timer
+TextureRect
 CollisionShape2D
 Area2D
 PanelContainer
@@ -21,4 +23,3 @@ VBoxContainer
 TextureButton
 TileMap
 CanvasLayer
-TextureRect
