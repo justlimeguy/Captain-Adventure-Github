@@ -1,8 +1,10 @@
 extends CharacterBody2D
 
+class_name Player
+
 @export var speed : float = 500.0
-@export var jump_velocity : float = -400.0
-@export var double_jump_velocity : float = -350
+@export var jump_velocity : float = -450.0
+@export var double_jump_velocity : float = -400
 
 @onready var ray_cast_2d = $RayCast2D
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D

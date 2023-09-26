@@ -1,11 +1,10 @@
-res://Scenes/MainMenue.tscn
-res://lime.theme
-res://Scenes/Game.tscn
 res://Charecters/Player.tscn
+res://Scripts/Player.gd
+res://GameResources/falling_spike/falling_spike.gd
+res://Scenes/Game.tscn
+res://Scenes/Button.gd
 res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res
 res://GameResources/falling_spike.tscn
-res://Scripts/Game.gd
-res://Scripts/Player.gd
-res://ProjectResourses/Terrain.res
+res://Scenes/MainMenue.tscn
