@@ -1,4 +1,6 @@
+res://Scenes
 res://
+res://Scripts
 C:/Users/Priyanshu/Documents/Godot/Files/Godot 4/4.1.1/CaptianAdventure-main/Captain-Adventure-Github/Imports/ThemeImport
 res://Imports/UI/Yellow Paper
 res://Imports/UI/Green Board
@@ -9,5 +11,4 @@ res://GameResources
 res://Imports/IslandSprites/Objects/Spikes
 C:/Users/Priyanshu/Documents/Godot/Files/Godot 4/4.1.1/CaptianAdventure-main/Captain-Adventure-Github
 res://ProjectResourses
-res://Scripts
 res://Imports/IslandSprites/Background
