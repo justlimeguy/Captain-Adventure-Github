@@ -427,6 +427,7 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D"]
+scale = Vector2(2, 2)
 script = ExtResource("1_p8gjt")
 speed = 150.0
 jump_velocity = -185.0
@@ -461,5 +462,20 @@ collide_with_areas = true
 stream = ExtResource("31_lkn8f")
 volume_db = 1.0
 bus = &"Player"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+offset_right = 162.0
+offset_bottom = 40.0
+
+[node name="Health bar" type="HSlider" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+step = 10.0
+rounded = true
+scrollable = false
+
+[node name="attack" type="HSlider" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

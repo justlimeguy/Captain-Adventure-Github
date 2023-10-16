@@ -11,7 +11,7 @@ func _process(delta):
 	if Input.is_action_pressed("jump") && Gvars.is_paused == true:
 		resume()
 
-	print(get_viewport_rect().get_center().x)
+
 func _on_pause_pressed():
 	pause()
 	$CanvasLayer/Pause.disabled = true

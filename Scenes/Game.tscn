@@ -1,12 +1,10 @@
-[gd_scene load_steps=22 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=20 format=3 uid="uid://qjjrj836row8"]
 
 [ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="1_6q134"]
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
 [ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="2_oayvo"]
 [ext_resource type="Texture2D" uid="uid://blaxi3pa8rmw4" path="res://Imports/UI/Small Text/Small Icons/10.png" id="5_7ks7q"]
 [ext_resource type="Texture2D" uid="uid://gl0tc0jjgq2s" path="res://Imports/UI/Green Board/16.png" id="6_004sk"]
-[ext_resource type="TileSet" uid="uid://wcqpe68rap7i" path="res://ProjectResourses/UI.res" id="7_3lqdg"]
-[ext_resource type="Texture2D" uid="uid://vwogm2kicvew" path="res://Imports/UI/Green Button/LongButton.png" id="8_6tn5x"]
 [ext_resource type="Texture2D" uid="uid://3wu3llvar5if" path="res://Imports/IslandSprites/Background/Big Clouds.png" id="9_ib5o7"]
 [ext_resource type="Texture2D" uid="uid://cwn8y5fi0mdvu" path="res://Imports/IslandSprites/Background/Water Reflect Big 01.png" id="10_akqsi"]
 [ext_resource type="Texture2D" uid="uid://b8tydcyinaa0f" path="res://Imports/IslandSprites/Background/Water Reflect Big 02.png" id="11_8ffsc"]
@@ -48,10 +46,10 @@ tracks/0/path = NodePath("AnimationPlayer/Clouds:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 30, 30.0004),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0, 30),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(225, 131), Vector2(-391, 131), Vector2(-531, 273)]
+"values": [Vector2(435, 259), Vector2(-804, 259)]
 }
 
 [sub_resource type="Animation" id="Animation_lf474"]
@@ -84,7 +82,8 @@ script = ExtResource("1_301mx")
 
 [node name="BgImage" type="Sprite2D" parent="."]
 z_index = -2
-scale = Vector2(1.00461, 2.08477)
+position = Vector2(-14, 0)
+scale = Vector2(2, 4.149)
 texture = ExtResource("1_6q134")
 offset = Vector2(192, 64)
 
@@ -95,12 +94,14 @@ sprite_frames = SubResource("SpriteFrames_d8ea1")
 frame_progress = 0.580871
 
 [node name="Base" type="TileMap" parent="."]
+scale = Vector2(2, 2)
 tile_set = ExtResource("2_oayvo")
 cell_quadrant_size = 32
 format = 2
 layer_0/tile_data = PackedInt32Array(393216, 65536, 0, 393217, 65536, 0, 393218, 65536, 0, 393219, 65536, 0, 393220, 131072, 0, 393223, 0, 0, 393224, 65536, 0, 393225, 65536, 0, 393226, 65536, 0, 393227, 65536, 0, 65547, 0, 1, 11, 0, 1, 327691, 0, 1, 262155, 0, 1, 196619, 0, 1, 131083, 0, 1, 327680, 131072, 1, 262144, 131072, 1, 196608, 131072, 1, 131072, 131072, 1, 65536, 131072, 1, 0, 131072, 1, 458756, 131072, 1, 458759, 0, 1, 458755, 65536, 1, 458754, 65536, 1, 458753, 65536, 1, 458752, 65536, 1, 458760, 65536, 1, 458761, 65536, 1, 458762, 65536, 1, 458763, 65536, 1)
 
 [node name="Levels" type="TileMap" parent="."]
+scale = Vector2(2, 2)
 tile_set = ExtResource("2_oayvo")
 cell_quadrant_size = 32
 format = 2
@@ -116,10 +117,13 @@ layer_1/tile_data = PackedInt32Array(524291, 65537, 1, 524290, 65537, 1, 524289,
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Pause" type="TextureButton" parent="CanvasLayer"]
-offset_left = 332.0
-offset_top = 3.0
-offset_right = 409.0
-offset_bottom = 75.0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -77.0
+offset_top = 20.0
+offset_bottom = 92.0
+grow_horizontal = 0
 scale = Vector2(0.546147, 0.570859)
 theme = ExtResource("11_vo2gp")
 texture_normal = ExtResource("6_004sk")
@@ -130,81 +134,44 @@ position = Vector2(36, 36)
 scale = Vector2(3.25, 5.33333)
 texture = ExtResource("5_7ks7q")
 
-[node name="PauseMenue" type="TileMap" parent="CanvasLayer"]
+[node name="PauseMenue" type="PanelContainer" parent="CanvasLayer"]
 visible = false
-position = Vector2(45, 15)
-tile_set = ExtResource("7_3lqdg")
-cell_quadrant_size = 32
-format = 2
-layer_0/tile_data = PackedInt32Array(65539, 0, 0, 131075, 0, 1, 196611, 0, 2, 65540, 65536, 0, 131076, 65536, 1, 196612, 65536, 2, 65541, 131072, 0, 131077, 131072, 1, 196613, 131072, 2)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.0
+offset_top = -85.0
+offset_right = 91.0
+offset_bottom = 95.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_type_variation = &"woodPannel"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PauseMenue"]
-offset_left = 123.067
-offset_top = 46.0713
-offset_right = 165.067
-offset_bottom = 114.071
-theme = ExtResource("11_vo2gp")
-
-[node name="Resume" type="TextureButton" parent="CanvasLayer/PauseMenue/VBoxContainer"]
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/PauseMenue"]
 layout_mode = 2
-texture_normal = ExtResource("8_6tn5x")
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
-[node name="Label" type="Label" parent="CanvasLayer/PauseMenue/VBoxContainer/Resume"]
-layout_mode = 0
-offset_left = 8.933
-offset_top = 3.9287
-offset_right = 71.933
-offset_bottom = 22.9287
-scale = Vector2(0.44755, 0.44755)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
+[node name="resume" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
+layout_mode = 2
 text = "Resume"
 
-[node name="Restart" type="TextureButton" parent="CanvasLayer/PauseMenue/VBoxContainer"]
+[node name="restart" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
 layout_mode = 2
-texture_normal = ExtResource("8_6tn5x")
-
-[node name="Label" type="Label" parent="CanvasLayer/PauseMenue/VBoxContainer/Restart"]
-layout_mode = 0
-offset_left = 9.933
-offset_top = 3.9287
-offset_right = 72.933
-offset_bottom = 22.9287
-scale = Vector2(0.44755, 0.44755)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
 text = "Restart"
 
-[node name="Menue" type="TextureButton" parent="CanvasLayer/PauseMenue/VBoxContainer"]
+[node name="menue" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
 layout_mode = 2
-texture_normal = ExtResource("8_6tn5x")
+button_mask = 3
+text = "Menu"
 
-[node name="Label" type="Label" parent="CanvasLayer/PauseMenue/VBoxContainer/Menue"]
-layout_mode = 0
-offset_left = 11.933
-offset_top = 3.9287
-offset_right = 74.933
-offset_bottom = 22.9287
-scale = Vector2(0.44755, 0.44755)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
-text = "Menue"
-
-[node name="Quit" type="TextureButton" parent="CanvasLayer/PauseMenue/VBoxContainer"]
+[node name="quit" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
 layout_mode = 2
-texture_normal = ExtResource("8_6tn5x")
-
-[node name="Label" type="Label" parent="CanvasLayer/PauseMenue/VBoxContainer/Quit"]
-layout_mode = 0
-offset_left = 14.933
-offset_top = 3.9287
-offset_right = 77.933
-offset_bottom = 22.9287
-scale = Vector2(0.44755, 0.44755)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
-text = "Quit
-"
+text = "Quit"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -214,6 +181,7 @@ libraries = {
 [node name="Clouds" type="Node2D" parent="AnimationPlayer"]
 z_index = -1
 position = Vector2(429, 272)
+scale = Vector2(2, 2)
 
 [node name="Sprite2D" type="Sprite2D" parent="AnimationPlayer/Clouds"]
 position = Vector2(26.6394, -6.79047)
@@ -236,14 +204,8 @@ position = Vector2(146, 1)
 [node name="Player" parent="." instance=ExtResource("17_vlcv2")]
 position = Vector2(61, 17)
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(15, -21)
-limit_left = 0
-limit_top = 0
-limit_right = 384
-
 [connection signal="pressed" from="CanvasLayer/Pause" to="." method="_on_pause_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/VBoxContainer/Restart" to="." method="_on_restart_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/VBoxContainer/Menue" to="." method="_on_menue_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/menue" to="." method="_on_menue_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/quit" to="." method="_on_quit_pressed"]
