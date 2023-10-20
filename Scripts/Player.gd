@@ -2,9 +2,10 @@ extends CharacterBody2D
 
 class_name Player
 
-@export var speed : float = 500.0
-@export var jump_velocity : float = -450.0
-@export var double_jump_velocity : float = -400
+@export var speed : float = 190
+@export var jump_velocity : float =-350
+@export var double_jump_velocity : float= -340
+
 
 @onready var ray_cast_2d = $RayCast2D
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
@@ -33,9 +34,6 @@ func _physics_process(delta):
 
 	else:
 		has_double_jumped = false
-		if was_in_air == true:
-			land()
-		was_in_air = false
 
 	if Gvars.is_allowed_to_press == true:
 		
@@ -79,7 +77,7 @@ func update_facing_direction():
 		ray_cast_2d.scale.x = abs(ray_cast_2d.scale.x) * -1
 
 func jump():
-	velocity.y = jump_velocity
+	velocity.y =  velocity.y  + jump_velocity
 	animated_sprite.play("jump_start")
 	animation_locked = true
 
@@ -90,10 +88,6 @@ func double_jump():
 	animation_locked = true
 	has_double_jumped = true
 
-
-func land():
-	animated_sprite.play("jump_end")
-	animation_locked = true
 
 
 func _on_animated_sprite_2d_animation_finished():

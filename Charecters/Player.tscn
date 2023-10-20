@@ -32,10 +32,6 @@
 [ext_resource type="Texture2D" uid="uid://d2b1jvinecsbx" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png" id="22_b2it7"]
 [ext_resource type="AudioStream" uid="uid://cw1ggvm5tmpn0" path="res://walk.wav" id="31_lkn8f"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r52fl"]
-radius = 7.0
-height = 24.0
-
 [sub_resource type="Animation" id="Animation_qe3fs"]
 length = 0.4
 tracks/0/type = "value"
@@ -426,16 +422,14 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="Player" type="CharacterBody2D"]
-scale = Vector2(2, 2)
-script = ExtResource("1_p8gjt")
-speed = 150.0
-jump_velocity = -185.0
-double_jump_velocity = -150.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r52fl"]
+radius = 7.0
+height = 20.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -13)
-shape = SubResource("CapsuleShape2D_r52fl")
+[node name="Player" type="CharacterBody2D"]
+light_mask = 2
+scale = Vector2(1.5, 1.5)
+script = ExtResource("1_p8gjt")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -449,9 +443,14 @@ active = true
 parameters/Move/blend_position = 0.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+light_mask = 2
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_tkf6r")
 animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -10)
+shape = SubResource("CapsuleShape2D_r52fl")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 position = Vector2(3, -41)

@@ -1,3 +1,9 @@
+CanvasModulate
+DirectionalLight2D
+LightOccluder2D
+Player
+ColorRect
+TileMap
 VBoxContainer
 HSlider
 HBoxContainer
@@ -24,9 +30,3 @@ Timer
 TextureRect
 CollisionShape2D
 Area2D
-Container
-Sprite2D
-CollisionPolygon2D
-StaticBody2D
-AudioStreamPlayer3D
-AudioStreamPlayer

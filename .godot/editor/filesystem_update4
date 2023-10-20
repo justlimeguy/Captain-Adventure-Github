@@ -1,6 +1,7 @@
-res://Charecters/Player.tscn
-res://Scenes/MainMenue.tscn
 res://Scenes/Game.tscn
+res://ProjectResourses/Terrain.res
+res://Scenes/MainMenue.tscn
+res://Charecters/Player.tscn
 res://Charecters/WoodShooter.scn
 res://GameResources/Keys.scn
 res://GameResources/Coins.res

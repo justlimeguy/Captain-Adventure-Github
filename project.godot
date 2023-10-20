@@ -22,10 +22,10 @@ Gvars="*res://game_vars.gd"
 
 [display]
 
-window/size/viewport_width=768
-window/size/viewport_height=432
+window/size/viewport_width=608
+window/size/viewport_height=480
 window/size/mode=2
-window/stretch/mode="viewport"
+window/stretch/mode="canvas_items"
 
 [dotnet]
 
@@ -74,7 +74,7 @@ esc={
 
 [physics]
 
-2d/default_gravity=500.0
+2d/default_gravity_vector=Vector2(0, 0.1)
 
 [rendering]
 

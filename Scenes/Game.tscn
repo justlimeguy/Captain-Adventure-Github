@@ -1,211 +1,40 @@
-[gd_scene load_steps=20 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=5 format=3 uid="uid://qjjrj836row8"]
 
-[ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="1_6q134"]
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
 [ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="2_oayvo"]
-[ext_resource type="Texture2D" uid="uid://blaxi3pa8rmw4" path="res://Imports/UI/Small Text/Small Icons/10.png" id="5_7ks7q"]
-[ext_resource type="Texture2D" uid="uid://gl0tc0jjgq2s" path="res://Imports/UI/Green Board/16.png" id="6_004sk"]
-[ext_resource type="Texture2D" uid="uid://3wu3llvar5if" path="res://Imports/IslandSprites/Background/Big Clouds.png" id="9_ib5o7"]
-[ext_resource type="Texture2D" uid="uid://cwn8y5fi0mdvu" path="res://Imports/IslandSprites/Background/Water Reflect Big 01.png" id="10_akqsi"]
-[ext_resource type="Texture2D" uid="uid://b8tydcyinaa0f" path="res://Imports/IslandSprites/Background/Water Reflect Big 02.png" id="11_8ffsc"]
-[ext_resource type="Theme" uid="uid://c6n7e3xica7se" path="res://lime.theme" id="11_vo2gp"]
-[ext_resource type="Texture2D" uid="uid://db81tkuw74fsn" path="res://Imports/IslandSprites/Background/Water Reflect Big 03.png" id="12_sbve8"]
-[ext_resource type="Texture2D" uid="uid://b182dkknhyvgr" path="res://Imports/IslandSprites/Background/Water Reflect Big 04.png" id="13_jk06i"]
-[ext_resource type="PackedScene" uid="uid://btghm8bvf1ys" path="res://GameResources/Coins.res" id="15_3pl5h"]
-[ext_resource type="PackedScene" uid="uid://cdkkin5m0f0i1" path="res://GameResources/falling_spike.tscn" id="16_r6tkh"]
-[ext_resource type="PackedScene" uid="uid://3ibata3h365n" path="res://Charecters/Player.tscn" id="17_vlcv2"]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_d8ea1"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("10_akqsi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_8ffsc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_sbve8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_jk06i")
-}],
-"loop": true,
-"name": &"default",
-"speed": 10.0
-}]
-
-[sub_resource type="Animation" id="Animation_xmhib"]
-resource_name = "Clouds"
-length = 30.0
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/Clouds:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 30),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(435, 259), Vector2(-804, 259)]
-}
-
-[sub_resource type="Animation" id="Animation_lf474"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/Clouds:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(429, 272)]
-}
-
-[sub_resource type="Animation" id="Animation_roy6d"]
-resource_name = "Wadert"
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_g5u6f"]
-_data = {
-"Clouds": SubResource("Animation_xmhib"),
-"RESET": SubResource("Animation_lf474"),
-"Wadert": SubResource("Animation_roy6d")
-}
+[ext_resource type="Texture2D" uid="uid://bvht4wnbcbwsx" path="res://Imports/IslandSprites/Background/BG Image.png" id="3_yh5qu"]
+[ext_resource type="PackedScene" uid="uid://3ibata3h365n" path="res://Charecters/Player.tscn" id="4_k70ma"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_301mx")
 
-[node name="BgImage" type="Sprite2D" parent="."]
-z_index = -2
-position = Vector2(-14, 0)
-scale = Vector2(2, 4.149)
-texture = ExtResource("1_6q134")
-offset = Vector2(192, 64)
-
-[node name="Water" type="AnimatedSprite2D" parent="BgImage"]
-position = Vector2(176, 98)
-scale = Vector2(1.27771, 0.567361)
-sprite_frames = SubResource("SpriteFrames_d8ea1")
-frame_progress = 0.580871
-
-[node name="Base" type="TileMap" parent="."]
-scale = Vector2(2, 2)
+[node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("2_oayvo")
-cell_quadrant_size = 32
 format = 2
-layer_0/tile_data = PackedInt32Array(393216, 65536, 0, 393217, 65536, 0, 393218, 65536, 0, 393219, 65536, 0, 393220, 131072, 0, 393223, 0, 0, 393224, 65536, 0, 393225, 65536, 0, 393226, 65536, 0, 393227, 65536, 0, 65547, 0, 1, 11, 0, 1, 327691, 0, 1, 262155, 0, 1, 196619, 0, 1, 131083, 0, 1, 327680, 131072, 1, 262144, 131072, 1, 196608, 131072, 1, 131072, 131072, 1, 65536, 131072, 1, 0, 131072, 1, 458756, 131072, 1, 458759, 0, 1, 458755, 65536, 1, 458754, 65536, 1, 458753, 65536, 1, 458752, 65536, 1, 458760, 65536, 1, 458761, 65536, 1, 458762, 65536, 1, 458763, 65536, 1)
-
-[node name="Levels" type="TileMap" parent="."]
-scale = Vector2(2, 2)
-tile_set = ExtResource("2_oayvo")
-cell_quadrant_size = 32
-format = 2
-layer_0/tile_data = PackedInt32Array(524292, 131072, 2, 524295, 0, 2, 524288, 393216, 0, 524299, 458752, 0, 524298, 65536, 2, 524297, 65536, 2, 524296, 65536, 2, 524289, 65536, 2, 524290, 65536, 2, 524291, 65536, 2, 589824, 131072, 1, 655360, 131072, 1, 720896, 131072, 1, 786432, 131072, 1, 851968, 131072, 1, 917505, 65536, 0, 917506, 65536, 0, 917507, 65536, 0, 917508, 65536, 0, 917509, 65536, 0, 917510, 65536, 0, 917511, 65536, 0, 917512, 65536, 0, 917513, 65536, 0, 917514, 65536, 0, 917504, 393216, 1, 917515, 458752, 1, 589835, 0, 1, 655371, 0, 1, 720907, 0, 1, 786443, 0, 1, 851979, 0, 1, 655365, 0, 0, 720901, 0, 1, 655366, 458752, 1, 720902, 65536, 1, 589830, 0, 0, 589831, 131072, 0, 655367, 131072, 1, 720903, 131072, 1, 786439, 131072, 2, 786438, 65536, 2, 786437, 0, 2, 786442, 262144, 4, 720904, 262144, 4, 655370, 262144, 4, 720899, 262144, 4, 786433, 262144, 4)
-layer_1/name = ""
+layer_0/name = "Platform"
+layer_0/tile_data = PackedInt32Array(917504, 65536, 0, 917505, 65536, 0, 917506, 65536, 0, 983039, 0, 0, 917523, 262144, 0, 983059, 262144, 2, 1048575, 0, 2, 983040, 65536, 2, 983041, 65536, 2, 983042, 65536, 2, 786435, 0, 4, 786436, 131072, 4, 720914, 131072, 4, 720913, 0, 4, 917507, 65536, 0, 983043, 65536, 2, 917508, 131072, 0, 983044, 131072, 2, 720902, 0, 4, 720903, 131072, 4, 655369, 0, 4, 655370, 131072, 4, 589836, 0, 4, 589837, 65536, 4, 589838, 131072, 4)
+layer_1/name = "Background"
 layer_1/enabled = true
 layer_1/modulate = Color(1, 1, 1, 1)
 layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = -1
-layer_1/tile_data = PackedInt32Array(524291, 65537, 1, 524290, 65537, 1, 524289, 65537, 1, 524288, 65537, 1, 589824, 65537, 1, 589835, 65537, 1, 524299, 65537, 1, 524298, 65537, 1, 524297, 65537, 1, 655360, 65537, 1, 720896, 65537, 1, 786432, 65537, 1, 786443, 65537, 1, 851979, 65537, 1, 851968, 65537, 1, 917504, 65536, 1, 917505, 65537, 1, 917506, 65537, 1, 917507, 65537, 1, 917508, 65537, 1, 917509, 65537, 1, 917510, 65537, 1, 917511, 65537, 1, 917512, 65537, 1, 917513, 65537, 1, 917514, 65537, 1, 917515, 65537, 1, 458756, 65536, 0, 458759, 65536, 0, 524292, 65537, 0, 524293, 65537, 0, 524294, 65537, 0, 524295, 65537, 0, 524296, 65537, 0, 655371, 65537, 1, 720907, 65537, 1, 786442, 65537, 1, 851978, 65537, 1, 851977, 65537, 1, 851976, 65537, 1, 851975, 65537, 1, 851974, 65537, 1, 851973, 65537, 1, 851972, 65537, 1, 851971, 65537, 1, 851970, 65537, 1, 851969, 65537, 1, 786433, 65537, 1, 786434, 65537, 1, 786435, 65537, 1, 786436, 65537, 1, 786437, 65537, 1, 786438, 65537, 1, 786439, 65537, 1, 786440, 65537, 1, 786441, 65537, 1, 720906, 65537, 1, 720905, 65537, 1, 720904, 65537, 1, 720903, 65537, 1, 720902, 65537, 1, 720901, 65537, 1, 720900, 65537, 1, 720899, 65537, 1, 720898, 65537, 1, 720897, 65537, 1, 655361, 65537, 1, 655362, 65537, 1, 655363, 65537, 1, 655364, 65537, 1, 655365, 65537, 1, 655366, 65537, 1, 655367, 65537, 1, 655368, 65537, 1, 655369, 65537, 1, 655370, 65537, 1, 589834, 65537, 1, 589833, 65537, 1, 589832, 65537, 1, 589831, 65537, 1, 589830, 65537, 1, 589829, 65537, 1, 589828, 65537, 1, 589827, 65537, 1, 589826, 65537, 1, 589825, 65537, 1)
+layer_1/tile_data = PackedInt32Array(19, 262145, 0, 65555, 262145, 1, 131091, 262145, 1, 196627, 262145, 1, 262163, 262145, 1, 327699, 262145, 1, 393235, 262145, 1, 458771, 262145, 1, 524307, 262145, 1, 589843, 262145, 1, 655379, 262145, 1, 720915, 262145, 1, 786451, 262145, 1, 851987, 262145, 1, 917523, 262145, 1, 983059, 262145, 2, 65535, 262145, 0, 131071, 262145, 1, 196607, 262145, 1, 262143, 262145, 1, 327679, 262145, 1, 393215, 262145, 1, 458751, 262145, 1, 524287, 262145, 1, 589823, 262145, 1, 655359, 262145, 1, 720895, 262145, 1, 786431, 262145, 1, 851967, 262145, 1, 917503, 262145, 1, 983039, 262145, 1, 1048575, 262145, 2)
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="BgImage" type="Sprite2D" parent="."]
+z_index = -2
+position = Vector2(412.5, 317.5)
+scale = Vector2(2.36719, 5.00781)
+texture = ExtResource("3_yh5qu")
 
-[node name="Pause" type="TextureButton" parent="CanvasLayer"]
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -77.0
-offset_top = 20.0
-offset_bottom = 92.0
-grow_horizontal = 0
-scale = Vector2(0.546147, 0.570859)
-theme = ExtResource("11_vo2gp")
-texture_normal = ExtResource("6_004sk")
-stretch_mode = 4
+[node name="Player" parent="." instance=ExtResource("4_k70ma")]
+position = Vector2(42, 372)
 
-[node name="10" type="Sprite2D" parent="CanvasLayer/Pause"]
-position = Vector2(36, 36)
-scale = Vector2(3.25, 5.33333)
-texture = ExtResource("5_7ks7q")
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.298039, 0.203922, 0.12549, 1)
 
-[node name="PauseMenue" type="PanelContainer" parent="CanvasLayer"]
-visible = false
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -72.0
-offset_top = -85.0
-offset_right = 91.0
-offset_bottom = 95.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_type_variation = &"woodPannel"
-
-[node name="GridContainer" type="GridContainer" parent="CanvasLayer/PauseMenue"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="resume" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
-layout_mode = 2
-text = "Resume"
-
-[node name="restart" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
-layout_mode = 2
-text = "Restart"
-
-[node name="menue" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
-layout_mode = 2
-button_mask = 3
-text = "Menu"
-
-[node name="quit" type="Button" parent="CanvasLayer/PauseMenue/GridContainer"]
-layout_mode = 2
-text = "Quit"
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_g5u6f")
-}
-
-[node name="Clouds" type="Node2D" parent="AnimationPlayer"]
-z_index = -1
-position = Vector2(429, 272)
-scale = Vector2(2, 2)
-
-[node name="Sprite2D" type="Sprite2D" parent="AnimationPlayer/Clouds"]
-position = Vector2(26.6394, -6.79047)
-scale = Vector2(1.12237, 1.12237)
-texture = ExtResource("9_ib5o7")
-
-[node name="Sprite2D2" type="Sprite2D" parent="AnimationPlayer/Clouds"]
-position = Vector2(527.565, -6.79047)
-scale = Vector2(1.12237, 1.12237)
-texture = ExtResource("9_ib5o7")
-
-[node name="Coins" parent="." instance=ExtResource("15_3pl5h")]
-position = Vector2(163, 433)
-
-[node name="FallingSpike" parent="." instance=ExtResource("16_r6tkh")]
-position = Vector2(146, 1)
-
-[node name="Area2D2" type="Area2D" parent="FallingSpike"]
-
-[node name="Player" parent="." instance=ExtResource("17_vlcv2")]
-position = Vector2(61, 17)
-
-[connection signal="pressed" from="CanvasLayer/Pause" to="." method="_on_pause_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/resume" to="." method="_on_resume_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/restart" to="." method="_on_restart_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/menue" to="." method="_on_menue_pressed"]
-[connection signal="pressed" from="CanvasLayer/PauseMenue/GridContainer/quit" to="." method="_on_quit_pressed"]
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
+rotation = 0.481174
+shadow_enabled = true
+shadow_color = Color(0.368627, 0.462745, 0.847059, 0)
+shadow_item_cull_mask = 2
