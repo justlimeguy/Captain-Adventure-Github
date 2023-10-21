@@ -1,8 +1,5 @@
-res://Charecters/Player.tscn
-res://ProjectResourses/Terrain.res
 res://Scenes/Game.tscn
-res://Scenes/MainMenue.tscn
-res://Scripts/Game.gd
-res://Scripts/Player.gd
+res://ProjectResourses/Terrain.res
 res://Charecters/Player.gd
-res://GameResources/playerParticles.tres
+res://Scenes/MainMenue.tscn
+res://Charecters/Player.tscn

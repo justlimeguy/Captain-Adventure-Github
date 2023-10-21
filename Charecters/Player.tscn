@@ -445,9 +445,9 @@ parameters/Move/blend_position = 0.0
 
 [node name="PlayerAnimatios" type="AnimatedSprite2D" parent="."]
 light_mask = 2
-position = Vector2(0, -12)
+position = Vector2(-0.666667, -10.6667)
 sprite_frames = SubResource("SpriteFrames_tkf6r")
-animation = &"land"
+animation = &"fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -10)
