@@ -1,8 +1,8 @@
-res://Scenes/Game.tscn
-res://ProjectResourses/Terrain.res
-res://Scenes/MainMenue.tscn
 res://Charecters/Player.tscn
-res://Charecters/WoodShooter.scn
-res://GameResources/Keys.scn
-res://GameResources/Coins.res
-res://GameResources/falling_spike.tscn
+res://ProjectResourses/Terrain.res
+res://Scenes/Game.tscn
+res://Scenes/MainMenue.tscn
+res://Scripts/Game.gd
+res://Scripts/Player.gd
+res://Charecters/Player.gd
+res://GameResources/playerParticles.tres

@@ -1,6 +1,7 @@
 extends Node2D
 #
-#
+@onready var label: Label = $Label
+
 ## Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #
@@ -12,6 +13,8 @@ extends Node2D
 #		resume()
 #
 #
+func _process(delta: float) -> void:
+	label.text = str(DisplayServer.window_get_size())
 #func _on_pause_pressed():
 #	pause()
 #	$"Pause Menue/Pause".disabled = true

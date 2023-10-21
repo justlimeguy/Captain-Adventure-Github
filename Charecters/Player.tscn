@@ -1,6 +1,6 @@
-[gd_scene load_steps=50 format=3 uid="uid://3ibata3h365n"]
+[gd_scene load_steps=51 format=3 uid="uid://3ibata3h365n"]
 
-[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_p8gjt"]
+[ext_resource type="Script" path="res://Charecters/Player.gd" id="1_owy05"]
 [ext_resource type="Texture2D" uid="uid://f2bg7btl7d3a" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png" id="2_a1fcd"]
 [ext_resource type="Texture2D" uid="uid://bcwkgnoeaajgu" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png" id="2_c0ipr"]
 [ext_resource type="Texture2D" uid="uid://d1p1ws5sjgbep" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png" id="3_adykf"]
@@ -31,13 +31,14 @@
 [ext_resource type="Texture2D" uid="uid://xclpdhvxdo3t" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png" id="21_w4ojf"]
 [ext_resource type="Texture2D" uid="uid://d2b1jvinecsbx" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png" id="22_b2it7"]
 [ext_resource type="AudioStream" uid="uid://cw1ggvm5tmpn0" path="res://walk.wav" id="31_lkn8f"]
+[ext_resource type="SpriteFrames" uid="uid://c2x1bafngvdf0" path="res://GameResources/playerParticles.tres" id="32_nxm74"]
 
 [sub_resource type="Animation" id="Animation_qe3fs"]
 length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -49,7 +50,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -64,7 +65,7 @@ length = 0.1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -76,7 +77,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -91,7 +92,7 @@ length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -103,7 +104,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -118,7 +119,7 @@ length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -130,7 +131,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -146,7 +147,7 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -158,7 +159,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -173,7 +174,7 @@ length = 0.3
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -185,7 +186,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -200,7 +201,7 @@ length = 0.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -212,7 +213,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -228,7 +229,7 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/path = NodePath("PlayerAnimatios:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -240,7 +241,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/path = NodePath("PlayerAnimatios:animation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -375,17 +376,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("15_0v87j")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_idagi")
-}],
-"loop": false,
-"name": &"jump_end",
-"speed": 10.0
-}, {
-"frames": [{
-"duration": 1.0,
 "texture": ExtResource("12_1djk3")
 }, {
 "duration": 1.0,
@@ -395,7 +385,18 @@ animations = [{
 "texture": ExtResource("14_ajmkd")
 }],
 "loop": false,
-"name": &"jump_start",
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_0v87j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_idagi")
+}],
+"loop": false,
+"name": &"land",
 "speed": 10.0
 }, {
 "frames": [{
@@ -426,10 +427,10 @@ animations = [{
 radius = 7.0
 height = 20.0
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 light_mask = 2
 scale = Vector2(1.5, 1.5)
-script = ExtResource("1_p8gjt")
+script = ExtResource("1_owy05")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -442,11 +443,11 @@ anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/Move/blend_position = 0.0
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="PlayerAnimatios" type="AnimatedSprite2D" parent="."]
 light_mask = 2
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_tkf6r")
-animation = &"idle"
+animation = &"land"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -10)
@@ -462,19 +463,8 @@ stream = ExtResource("31_lkn8f")
 volume_db = 1.0
 bus = &"Player"
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
-offset_right = 162.0
-offset_bottom = 40.0
-
-[node name="Health bar" type="HSlider" parent="CanvasLayer/VBoxContainer"]
-layout_mode = 2
-step = 10.0
-rounded = true
-scrollable = false
-
-[node name="attack" type="HSlider" parent="CanvasLayer/VBoxContainer"]
-layout_mode = 2
-
-[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[node name="Particles" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.33333, -10.6667)
+sprite_frames = ExtResource("32_nxm74")
+animation = &"swiming"
+frame_progress = 0.303154

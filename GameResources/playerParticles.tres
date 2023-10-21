@@ -1,0 +1,130 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://c2x1bafngvdf0"]
+
+[ext_resource type="Texture2D" uid="uid://bdkwg3en1k4jm" path="res://Imports/MerchantShip/Water/Water Splash 1/1.png" id="1_8wstm"]
+[ext_resource type="Texture2D" uid="uid://brlrvbejq3egd" path="res://Imports/MerchantShip/Water/Water Splash 1/2.png" id="2_2ii2s"]
+[ext_resource type="Texture2D" uid="uid://dudcdji2ndq3t" path="res://Imports/MerchantShip/Water/Water Splash 1/3.png" id="3_yldho"]
+[ext_resource type="Texture2D" uid="uid://cx7xv7y4xwgqw" path="res://Imports/MerchantShip/Water/Water Splash 1/4.png" id="4_x78kg"]
+[ext_resource type="Texture2D" uid="uid://b2h2o3qbh7bcp" path="res://Imports/MerchantShip/Water/Water Splash 1/5.png" id="5_nc5x3"]
+[ext_resource type="Texture2D" uid="uid://b7adgfo3r63kb" path="res://Imports/Captain/Dust Particles/Jump 01.png" id="6_w1lpn"]
+[ext_resource type="Texture2D" uid="uid://d4b6pjryqr00g" path="res://Imports/Captain/Dust Particles/Jump 02.png" id="7_v2isb"]
+[ext_resource type="Texture2D" uid="uid://bi4qv004f3rrw" path="res://Imports/Captain/Dust Particles/Jump 03.png" id="8_nxjo8"]
+[ext_resource type="Texture2D" uid="uid://y4rth25ayhyd" path="res://Imports/Captain/Dust Particles/Jump 04.png" id="9_o0bty"]
+[ext_resource type="Texture2D" uid="uid://b5qf52rgxdi76" path="res://Imports/Captain/Dust Particles/Jump 05.png" id="10_qmj8j"]
+[ext_resource type="Texture2D" uid="uid://b0k5t3wfgtw70" path="res://Imports/Captain/Dust Particles/Jump 06.png" id="11_pd6lc"]
+[ext_resource type="Texture2D" uid="uid://bonpnrocat00r" path="res://Imports/Captain/Dust Particles/Fall 01.png" id="12_deu77"]
+[ext_resource type="Texture2D" uid="uid://eq8lbshsak30" path="res://Imports/Captain/Dust Particles/Fall 02.png" id="13_7fviq"]
+[ext_resource type="Texture2D" uid="uid://cegul3uvp2p17" path="res://Imports/Captain/Dust Particles/Fall 03.png" id="14_4vkn2"]
+[ext_resource type="Texture2D" uid="uid://bp605fttqyqbp" path="res://Imports/Captain/Dust Particles/Fall 04.png" id="15_k5kwm"]
+[ext_resource type="Texture2D" uid="uid://cpr272crqnj7r" path="res://Imports/Captain/Dust Particles/Fall 05.png" id="16_wip65"]
+[ext_resource type="Texture2D" uid="uid://mqupovuwrivb" path="res://Imports/Captain/Dust Particles/Run 01.png" id="17_jlhiw"]
+[ext_resource type="Texture2D" uid="uid://ddqa56ebhqltj" path="res://Imports/Captain/Dust Particles/Run 02.png" id="18_pcno4"]
+[ext_resource type="Texture2D" uid="uid://bef0icyon2bmm" path="res://Imports/Captain/Dust Particles/Run 03.png" id="19_51bht"]
+[ext_resource type="Texture2D" uid="uid://grafpv40oggc" path="res://Imports/Captain/Dust Particles/Run 04.png" id="20_a2k3l"]
+[ext_resource type="Texture2D" uid="uid://bvgd12aqf5opm" path="res://Imports/Captain/Dust Particles/Run 05.png" id="21_wm6c3"]
+[ext_resource type="Texture2D" uid="uid://b5sbkuq7g0w0g" path="res://Imports/MerchantShip/Water/Water Splash 2/1.png" id="22_ppls5"]
+[ext_resource type="Texture2D" uid="uid://burapdr0rrbtk" path="res://Imports/MerchantShip/Water/Water Splash 2/2.png" id="23_bypfr"]
+[ext_resource type="Texture2D" uid="uid://5yps0q4tqlpv" path="res://Imports/MerchantShip/Water/Water Splash 2/3.png" id="24_x0shu"]
+[ext_resource type="Texture2D" uid="uid://bko30bit3ad7t" path="res://Imports/MerchantShip/Water/Water Splash 2/4.png" id="25_16i22"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8wstm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2ii2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yldho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_x78kg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nc5x3")
+}],
+"loop": true,
+"name": &"drowning",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_w1lpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v2isb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_nxjo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_o0bty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qmj8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pd6lc")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_deu77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7fviq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_4vkn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_k5kwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wip65")
+}],
+"loop": false,
+"name": &"land",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_jlhiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_pcno4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_51bht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_a2k3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wm6c3")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_ppls5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bypfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_x0shu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_16i22")
+}],
+"loop": true,
+"name": &"swiming",
+"speed": 10.0
+}]

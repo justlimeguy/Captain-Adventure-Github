@@ -1,7 +1,11 @@
+AnimatedSprite2D
+Label
+Sprite2D
+CollisionShape2D
+Area2D
 CanvasModulate
 DirectionalLight2D
 LightOccluder2D
-Player
 ColorRect
 TileMap
 VBoxContainer
@@ -27,6 +31,3 @@ Camera2D
 Panel
 Control
 Timer
-TextureRect
-CollisionShape2D
-Area2D
