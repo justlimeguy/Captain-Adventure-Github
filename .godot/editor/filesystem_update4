@@ -1,8 +1,4 @@
 res://Scenes/Game.tscn
 res://ProjectResourses/Terrain.res
-res://Scripts/Game.gd
-res://Scenes/MainMenue.tscn
 res://Charecters/Player.tscn
-res://GameResources/GameCamera.tscn
-res://Charecters/Player.gd
-res://GameResources/looping_clods.tscn
+res://GameResources/candle.tscn

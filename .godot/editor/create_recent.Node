@@ -1,7 +1,10 @@
+Camera2D
 CollisionShape2D
 Area2D
+AnimatedSprite2D
+Node2D
 Node
-Camera2D
+PointLight2D
 GPUParticles2D
 AnimationPlayer
 Sprite2D
@@ -12,7 +15,6 @@ TextureRect
 Control
 TileMap
 DirectionalLight2D
-AnimatedSprite2D
 Label
 CanvasModulate
 LightOccluder2D
@@ -20,7 +22,6 @@ ColorRect
 VBoxContainer
 HSlider
 HBoxContainer
-Node2D
 CheckButton
 CheckBox
 GridContainer
@@ -29,4 +30,3 @@ Button
 NavigationRegion3D
 NavigationAgent3D
 Sprite3D
-AnimatedSprite3D

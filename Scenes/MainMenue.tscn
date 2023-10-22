@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://4uaxb8dfdv3e" path="res://Imports/UI/Big Text/5.png" id="14_ukqjf"]
 [ext_resource type="Texture2D" uid="uid://bt42gfpsedo4y" path="res://Imports/UI/Big Text/21.png" id="15_bj4ng"]
 [ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="15_qy042"]
-[ext_resource type="PackedScene" uid="uid://6xqm0e8kjopf" path="res://GameResources/Water.res" id="16_rbx2v"]
+[ext_resource type="PackedScene" uid="uid://6xqm0e8kjopf" path="res://Water.res" id="16_rbx2v"]
 [ext_resource type="Texture2D" uid="uid://ew67abqn5r58" path="res://Imports/UI/Big Text/18.png" id="16_ttdq8"]
 [ext_resource type="Theme" uid="uid://c6n7e3xica7se" path="res://lime.theme" id="17_77dyx"]
 

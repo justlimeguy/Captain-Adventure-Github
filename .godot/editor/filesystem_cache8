@@ -1,34 +1,40 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697941670
+::res://::1697975183
 8-BIT WONDER.TTF::FontFile::2536052276539848185::1695530086::1695530097::1::::<><>::
 cave fade.png::CompressedTexture2D::6931344800892199350::1697880785::1697880808::1::::<><>::
 default_bus_layout.tres::AudioBusLayout::7775911149255218204::1695193117::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1695436618::0::1::::<><>::
 game_vars.gd::GDScript::-1::1695086955::0::1::::<>Node<>::
 green_board.png::CompressedTexture2D::8029092189919853907::1695528876::1695732518::1::::<><>::
-icon.png::CompressedTexture2D::8786481117032535522::1697884547::1697884555::1::::<><>::
-icon.svg::CompressedTexture2D::69453410453100261::1697884364::1697884375::1::::<><>::
+icon.svg::CompressedTexture2D::69453410453100261::1697949850::1697949857::1::::<><>::
+light.png::CompressedTexture2D::3249617053856485747::1697971692::1697971700::1::::<><>::
+Light.svg::CompressedTexture2D::2591122021272360654::1697971704::1697971716::1::::<><>::
 lime.theme::Theme::6977484024462628808::1696042254::0::1::::<><>::uid://bceqn7rhq3f0t
 walk.wav::AudioStreamWAV::6371045888665445471::1695193964::1695193973::1::::<><>::
+Water.res::PackedScene::2224329063309574979::1697806160::0::1::::<><>::uid://1l2e1q0hgkjv::::res://ProjectResourses/WaterFront.res<>res://Scripts/Water.gd
+whitelight.png::CompressedTexture2D::4212512438570078841::1697947959::1697947970::1::::<><>::
 ::res://addons/::1697882385
-::res://Charecters/::1697884623
-Player.gd::GDScript::-1::1697884577::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::1981864360116487765::1697884623::0::1::::<><>::res://Charecters/Player.gd<>uid://f2bg7btl7d3a::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png<>uid://bcwkgnoeaajgu::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png<>uid://d1p1ws5sjgbep::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png<>uid://dn6g4ahl5jws1::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 01.png<>uid://bqkxkchaqw8rf::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png<>uid://brwqt6l4xd2f7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 02.png<>uid://dpev7dgcp4h7q::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 02.png<>uid://ce2ms2m7pyi02::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 03.png<>uid://cobcbrvy6qfoe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 04.png<>uid://1seppcy5tvn7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 03.png<>uid://cr70wdpxofimm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 03.png<>uid://dccd007wfukiq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 04.png<>uid://cn3dbewjofdjg::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 04.png<>uid://c0svxdqx464i5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 01.png<>uid://dx0cvciii53pe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 02.png<>uid://c7j6xumlwifcs::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 03.png<>uid://dfpui1g4ewsjt::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 04.png<>uid://wrl2rmv5svlr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 05.png<>uid://b2ldpp5jmgybc::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 01.png<>uid://cx2p3p47qypcm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 02.png<>uid://d3xj5gx1u3rfd::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 03.png<>uid://c6re66esfltbi::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 01.png<>uid://bslkh4hbxmmcj::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 02.png<>uid://c4co320bh8qjr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 01.png<>uid://cnor1qn7yiwbe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 02.png<>uid://csw3xu2klurlq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 03.png<>uid://bib7ajop745d5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png<>uid://xclpdhvxdo3t::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png<>uid://d2b1jvinecsbx::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png<>uid://cw1ggvm5tmpn0::::res://walk.wav<>uid://c2x1bafngvdf0::::res://GameResources/playerParticles.tres
+::res://Charecters/::1697975100
+Player.gd::GDScript::-1::1697948591::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::1981864360116487765::1697975100::0::1::::<><>::res://Charecters/Player.gd<>uid://f2bg7btl7d3a::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png<>uid://bcwkgnoeaajgu::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 01.png<>uid://d1p1ws5sjgbep::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 02.png<>uid://dn6g4ahl5jws1::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 01.png<>uid://bqkxkchaqw8rf::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png<>uid://brwqt6l4xd2f7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 02.png<>uid://dpev7dgcp4h7q::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 02.png<>uid://ce2ms2m7pyi02::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 03.png<>uid://cobcbrvy6qfoe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/08-Dead Ground/Dead Ground 04.png<>uid://1seppcy5tvn7::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 03.png<>uid://cr70wdpxofimm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 03.png<>uid://dccd007wfukiq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/07-Dead Hit/Dead Hit 04.png<>uid://cn3dbewjofdjg::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 04.png<>uid://c0svxdqx464i5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 01.png<>uid://dx0cvciii53pe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 02.png<>uid://c7j6xumlwifcs::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 03.png<>uid://dfpui1g4ewsjt::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 04.png<>uid://wrl2rmv5svlr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/01-Idle/Idle 05.png<>uid://b2ldpp5jmgybc::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 01.png<>uid://cx2p3p47qypcm::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 02.png<>uid://d3xj5gx1u3rfd::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/03-Jump/Jump 03.png<>uid://c6re66esfltbi::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 01.png<>uid://bslkh4hbxmmcj::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/05-Ground/Ground 02.png<>uid://c4co320bh8qjr::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 01.png<>uid://cnor1qn7yiwbe::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 02.png<>uid://csw3xu2klurlq::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 03.png<>uid://bib7ajop745d5::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 04.png<>uid://xclpdhvxdo3t::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png<>uid://d2b1jvinecsbx::::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png<>uid://cw1ggvm5tmpn0::::res://walk.wav
 WoodShooter.scn::PackedScene::2422785873963937983::1697806160::0::1::::<><>::
-::res://GameResources/::1697882358
+::res://GameResources/::1697975100
+candle.gd::GDScript::-1::1697973708::0::1::::<>AnimatedSprite2D<>::
+candle.tscn::PackedScene::8221244901100744698::1697975100::0::1::::<><>::uid://c161q8f1goecc::::res://Imports/ship/Decorations/Candle/Candle/01.png<>uid://ts2q1v8elov1::::res://Imports/ship/Decorations/Candle/Candle/02.png<>uid://xe7ehoono0cu::::res://Imports/ship/Decorations/Candle/Candle/03.png<>uid://wds8nhvgpigj::::res://Imports/ship/Decorations/Candle/Candle/04.png<>uid://boxxyji0kk7se::::res://Imports/ship/Decorations/Candle/Candle/05.png<>uid://b4w86rovrlxbe::::res://Imports/ship/Decorations/Candle/Candle/06.png<>uid://bmkeyoejt5ga2::::res://light.png<>res://GameResources/candle.gd
 cloud_transition.res::PackedScene::7690016123184159763::1694702752::0::1::::<><>::uid://trhfnp140v5
 Coins.gd::GDScript::-1::1695114445::0::1::::<>Area2D<>::
 Coins.res::PackedScene::109789504811574530::1697806160::0::1::::<><>::res://GameResources/Coins.gd<>uid://bdrm0nb0epsdf
 falling_spike.tscn::PackedScene::5004673861846344390::1697806160::0::1::::<><>::res://GameResources/falling_spike/falling_spike.gd
+GameCamera.tscn::PackedScene::2080192550155843136::1697943699::0::1::::<><>::
 Keys.scn::PackedScene::1341103553986310853::1697806160::0::1::::<><>::
+looping_clods.tscn::PackedScene::8985080077245798392::1697945832::0::1::::<><>::
 playerParticles.tres::SpriteFrames::6717001269885813943::1697882358::0::1::::<><>::uid://bdkwg3en1k4jm
 Ship.res::PackedScene::1445487386155420969::1694702752::0::1::::<><>::
 ShootingOrb.res::PackedScene::6824714194797055857::1694702751::0::1::::<><>::
 Spike.res::PackedScene::2137164915160302658::1694702752::0::1::::<><>::
-Water.res::PackedScene::2224329063309574979::1697806160::0::1::::<><>::uid://1l2e1q0hgkjv
 ::res://GameResources/falling_spike/::1695729814
 falling_spike.gd::GDScript::-1::1695729814::0::1::::<>Node2D<>::
-::res://Imports/::1695778269
+::res://Imports/::1697949343
 ::res://Imports/Captain/::1695098950
 ::res://Imports/Captain/Captain Clown Nose/::1695098949
 ::res://Imports/Captain/Captain Clown Nose/Captain Clown Nose with Sword/::1695098948
@@ -421,6 +427,141 @@ Terrain (32x32).png::CompressedTexture2D::5540354326105220860::1692064990::16920
 2.png::CompressedTexture2D::3825318950172337164::1692064990::1692064990::1::::<><>::
 3.png::CompressedTexture2D::2156154613564475279::1692064990::1692064990::1::::<><>::
 4.png::CompressedTexture2D::3118955195057825663::1692064990::1692064990::1::::<><>::
+::res://Imports/ship/::1697949344
+::res://Imports/ship/Decorations/::1697949344
+::res://Imports/ship/Decorations/Barrels and Bottles/::1697949355
+01.png::CompressedTexture2D::4372519486849295882::1697949343::1697949355::1::::<><>::
+02.png::CompressedTexture2D::1950428217204807411::1697949343::1697949355::1::::<><>::
+03.png::CompressedTexture2D::541349032944741613::1697949343::1697949355::1::::<><>::
+04.png::CompressedTexture2D::8114652964172123263::1697949343::1697949354::1::::<><>::
+05.png::CompressedTexture2D::2738217954140005329::1697949343::1697949354::1::::<><>::
+06.png::CompressedTexture2D::7208536093562167822::1697949343::1697949354::1::::<><>::
+::res://Imports/ship/Decorations/Candle/::1697949343
+::res://Imports/ship/Decorations/Candle/Candle/::1697949366
+01.png::CompressedTexture2D::6663355969049774374::1697949343::1697949354::1::::<><>::
+02.png::CompressedTexture2D::1372416159756024212::1697949343::1697949366::1::::<><>::
+03.png::CompressedTexture2D::1624551391579890748::1697949343::1697949366::1::::<><>::
+04.png::CompressedTexture2D::1551500224947493421::1697949343::1697949354::1::::<><>::
+05.png::CompressedTexture2D::3417985019074541688::1697949343::1697949354::1::::<><>::
+06.png::CompressedTexture2D::4469373395659235210::1697949343::1697949354::1::::<><>::
+::res://Imports/ship/Decorations/Candle/Candle Light/::1697949354
+01.png::CompressedTexture2D::5189108013330754384::1697949343::1697949354::1::::<><>::
+02.png::CompressedTexture2D::4542007997925842722::1697949343::1697949354::1::::<><>::
+03.png::CompressedTexture2D::1350028257646021313::1697949343::1697949354::1::::<><>::
+04.png::CompressedTexture2D::3185642567172886864::1697949343::1697949354::1::::<><>::
+::res://Imports/ship/Decorations/Chains/::1697949343
+::res://Imports/ship/Decorations/Chains/Big/::1697949354
+01.png::CompressedTexture2D::6200568858469677606::1697949343::1697949354::1::::<><>::
+02.png::CompressedTexture2D::8724900207769420680::1697949343::1697949354::1::::<><>::
+03.png::CompressedTexture2D::5329630950930514535::1697949343::1697949354::1::::<><>::
+04.png::CompressedTexture2D::1689541463630444913::1697949343::1697949354::1::::<><>::
+05.png::CompressedTexture2D::8007603497329273709::1697949343::1697949354::1::::<><>::
+06.png::CompressedTexture2D::7971765148125679317::1697949343::1697949354::1::::<><>::
+07.png::CompressedTexture2D::151488223799857884::1697949343::1697949354::1::::<><>::
+08.png::CompressedTexture2D::8239856069275595955::1697949343::1697949354::1::::<><>::
+::res://Imports/ship/Decorations/Chains/Small/::1697949356
+01.png::CompressedTexture2D::7171877970390034300::1697949344::1697949354::1::::<><>::
+02.png::CompressedTexture2D::5089788937794476115::1697949344::1697949354::1::::<><>::
+03.png::CompressedTexture2D::939587667807990678::1697949344::1697949354::1::::<><>::
+04.png::CompressedTexture2D::762650520765191938::1697949344::1697949354::1::::<><>::
+05.png::CompressedTexture2D::1849967783884120557::1697949344::1697949354::1::::<><>::
+06.png::CompressedTexture2D::2902956302324834142::1697949344::1697949354::1::::<><>::
+07.png::CompressedTexture2D::3952583653935098794::1697949344::1697949356::1::::<><>::
+08.png::CompressedTexture2D::3244922893332777244::1697949344::1697949356::1::::<><>::
+::res://Imports/ship/Decorations/Door/::1697949344
+::res://Imports/ship/Decorations/Door/Closing/::1697949356
+01.png::CompressedTexture2D::9009885361646306399::1697949344::1697949356::1::::<><>::
+02.png::CompressedTexture2D::3233348328628908833::1697949344::1697949356::1::::<><>::
+03.png::CompressedTexture2D::236855557354820469::1697949344::1697949356::1::::<><>::
+04.png::CompressedTexture2D::1706191805954251102::1697949344::1697949356::1::::<><>::
+05.png::CompressedTexture2D::4027837942781127698::1697949344::1697949356::1::::<><>::
+::res://Imports/ship/Decorations/Door/Opening/::1697949356
+01.png::CompressedTexture2D::8219481656435255566::1697949344::1697949356::1::::<><>::
+02.png::CompressedTexture2D::1261839115310169634::1697949344::1697949356::1::::<><>::
+03.png::CompressedTexture2D::610467685399959764::1697949344::1697949356::1::::<><>::
+04.png::CompressedTexture2D::1265507336072609309::1697949344::1697949355::1::::<><>::
+05.png::CompressedTexture2D::4783644092753508632::1697949344::1697949355::1::::<><>::
+::res://Imports/ship/Decorations/Window/::1697949344
+::res://Imports/ship/Decorations/Window/Window/::1697949355
+01.png::CompressedTexture2D::7289254318085209321::1697949344::1697949355::1::::<><>::
+02.png::CompressedTexture2D::1544631453995709355::1697949344::1697949355::1::::<><>::
+03.png::CompressedTexture2D::6438217716902852478::1697949344::1697949355::1::::<><>::
+04.png::CompressedTexture2D::4358341245834285179::1697949344::1697949355::1::::<><>::
+05.png::CompressedTexture2D::6484934953056187958::1697949344::1697949355::1::::<><>::
+06.png::CompressedTexture2D::7830338690590558353::1697949344::1697949355::1::::<><>::
+07.png::CompressedTexture2D::9060550908036245873::1697949344::1697949355::1::::<><>::
+08.png::CompressedTexture2D::7275124758710551605::1697949344::1697949355::1::::<><>::
+09.png::CompressedTexture2D::6288038566032849402::1697949344::1697949355::1::::<><>::
+10.png::CompressedTexture2D::2523705591260013467::1697949344::1697949355::1::::<><>::
+11.png::CompressedTexture2D::4425519253288544452::1697949344::1697949355::1::::<><>::
+12.png::CompressedTexture2D::6439071525294411242::1697949344::1697949355::1::::<><>::
+13.png::CompressedTexture2D::5090106681676288692::1697949344::1697949355::1::::<><>::
+14.png::CompressedTexture2D::416131732193345392::1697949344::1697949355::1::::<><>::
+15.png::CompressedTexture2D::7886174099743975301::1697949344::1697949355::1::::<><>::
+16.png::CompressedTexture2D::2841174090763901320::1697949344::1697949355::1::::<><>::
+17.png::CompressedTexture2D::9011852583937383002::1697949344::1697949355::1::::<><>::
+18.png::CompressedTexture2D::9070025502238838383::1697949344::1697949355::1::::<><>::
+19.png::CompressedTexture2D::4118302764152147463::1697949344::1697949352::1::::<><>::
+20.png::CompressedTexture2D::8659491836740592349::1697949344::1697949352::1::::<><>::
+21.png::CompressedTexture2D::119706659745902473::1697949344::1697949352::1::::<><>::
+22.png::CompressedTexture2D::6034464082837148705::1697949344::1697949352::1::::<><>::
+23.png::CompressedTexture2D::2767520179582463725::1697949344::1697949352::1::::<><>::
+24.png::CompressedTexture2D::1480024135990625699::1697949344::1697949352::1::::<><>::
+25.png::CompressedTexture2D::48815679515414152::1697949344::1697949352::1::::<><>::
+26.png::CompressedTexture2D::2607335149095669724::1697949344::1697949352::1::::<><>::
+27.png::CompressedTexture2D::2066828632963835058::1697949344::1697949352::1::::<><>::
+28.png::CompressedTexture2D::4016927054643368642::1697949344::1697949352::1::::<><>::
+29.png::CompressedTexture2D::7878515025172857913::1697949344::1697949352::1::::<><>::
+30.png::CompressedTexture2D::3562191814775425499::1697949344::1697949352::1::::<><>::
+31.png::CompressedTexture2D::425737134270576491::1697949344::1697949352::1::::<><>::
+32.png::CompressedTexture2D::8469857672925039813::1697949344::1697949352::1::::<><>::
+33.png::CompressedTexture2D::8699428559574478207::1697949344::1697949352::1::::<><>::
+34.png::CompressedTexture2D::7302274453189516661::1697949344::1697949352::1::::<><>::
+35.png::CompressedTexture2D::6469202740964976962::1697949344::1697949352::1::::<><>::
+36.png::CompressedTexture2D::570327285447892176::1697949344::1697949352::1::::<><>::
+37.png::CompressedTexture2D::5678734956503056205::1697949344::1697949352::1::::<><>::
+38.png::CompressedTexture2D::2099156973518628441::1697949344::1697949352::1::::<><>::
+39.png::CompressedTexture2D::5522434858399117997::1697949344::1697949352::1::::<><>::
+40.png::CompressedTexture2D::4667692590490562091::1697949344::1697949352::1::::<><>::
+41.png::CompressedTexture2D::6051747611660254641::1697949344::1697949352::1::::<><>::
+42.png::CompressedTexture2D::6299512951399364963::1697949344::1697949351::1::::<><>::
+43.png::CompressedTexture2D::6342440250168951393::1697949344::1697949351::1::::<><>::
+44.png::CompressedTexture2D::392414598817393200::1697949344::1697949351::1::::<><>::
+45.png::CompressedTexture2D::1447328370198948216::1697949344::1697949351::1::::<><>::
+46.png::CompressedTexture2D::9156611832117734051::1697949344::1697949351::1::::<><>::
+47.png::CompressedTexture2D::7106560272979535754::1697949344::1697949351::1::::<><>::
+48.png::CompressedTexture2D::4140867386711772863::1697949344::1697949353::1::::<><>::
+49.png::CompressedTexture2D::4326224726362557701::1697949344::1697949353::1::::<><>::
+50.png::CompressedTexture2D::2804379646579169088::1697949344::1697949353::1::::<><>::
+51.png::CompressedTexture2D::3683876286157532442::1697949344::1697949353::1::::<><>::
+52.png::CompressedTexture2D::1804322798469605101::1697949344::1697949353::1::::<><>::
+53.png::CompressedTexture2D::2601070531125250949::1697949344::1697949353::1::::<><>::
+54.png::CompressedTexture2D::5905006290172799949::1697949344::1697949353::1::::<><>::
+55.png::CompressedTexture2D::3842130804909008604::1697949344::1697949353::1::::<><>::
+56.png::CompressedTexture2D::9143238200257913763::1697949344::1697949353::1::::<><>::
+57.png::CompressedTexture2D::1470629708719061788::1697949344::1697949353::1::::<><>::
+58.png::CompressedTexture2D::6724413081448534404::1697949344::1697949353::1::::<><>::
+59.png::CompressedTexture2D::6491191071875480015::1697949344::1697949353::1::::<><>::
+60.png::CompressedTexture2D::4527266941558176807::1697949344::1697949353::1::::<><>::
+61.png::CompressedTexture2D::8179327415601598579::1697949344::1697949353::1::::<><>::
+62.png::CompressedTexture2D::3077317095843001024::1697949344::1697949353::1::::<><>::
+63.png::CompressedTexture2D::890787268553456837::1697949344::1697949353::1::::<><>::
+64.png::CompressedTexture2D::5637938411296581636::1697949344::1697949353::1::::<><>::
+65.png::CompressedTexture2D::4294344169384948297::1697949344::1697949353::1::::<><>::
+66.png::CompressedTexture2D::9133398630649795162::1697949344::1697949353::1::::<><>::
+67.png::CompressedTexture2D::7505545668633004292::1697949344::1697949353::1::::<><>::
+68.png::CompressedTexture2D::4442659654412013310::1697949344::1697949353::1::::<><>::
+69.png::CompressedTexture2D::7779452351333389115::1697949344::1697949353::1::::<><>::
+70.png::CompressedTexture2D::714836459950784854::1697949344::1697949353::1::::<><>::
+71.png::CompressedTexture2D::8940930943291774209::1697949344::1697949353::1::::<><>::
+72.png::CompressedTexture2D::3772582765012958893::1697949344::1697949353::1::::<><>::
+73.png::CompressedTexture2D::3970013214833139234::1697949344::1697949353::1::::<><>::
+74.png::CompressedTexture2D::8818222455526928307::1697949344::1697949353::1::::<><>::
+::res://Imports/ship/Decorations/Window/Window Light/::1697949352
+01.png::CompressedTexture2D::9157347970429814096::1697949344::1697949352::1::::<><>::
+::res://Imports/ship/Tilesets/::1697949353
+Platforms (32x32).png::CompressedTexture2D::2808783125270009007::1697949344::1697949352::1::::<><>::
+Terrain and Back Wall (32x32).png::CompressedTexture2D::4620802769275619802::1697949344::1697949353::1::::<><>::
 ::res://Imports/Treasure/::1695100973
 ::res://Imports/Treasure/Big Map/::1695100971
 ::res://Imports/Treasure/Big Map/Folding/::1695100983
@@ -941,16 +1082,16 @@ Yellow Button (guide).png::CompressedTexture2D::5780326777972777937::1692064990:
 15.png::CompressedTexture2D::6089266110200292150::1692064990::1692064990::1::::<><>::
 16.png::CompressedTexture2D::5927093957529630252::1692064990::1692064990::1::::<><>::
 Yellow Paper (guide).png::CompressedTexture2D::6238631711508463068::1692064990::1692064990::1::::<><>::
-::res://ProjectResourses/::1697884577
-Terrain.res::TileSet::5090237910441449316::1697884577::0::1::::<><>::uid://ck613dgx3g2q7::::res://Imports/IslandSprites/Terrain/Terrain (32x32).png
+::res://ProjectResourses/::1697974978
+Terrain.res::TileSet::5090237910441449316::1697974978::0::1::::<><>::uid://ck613dgx3g2q7::::res://Imports/IslandSprites/Terrain/Terrain (32x32).png
 UI.res::TileSet::1549281833842111476::1692064990::0::1::::<><>::uid://bdmwhvdvbiwxd
 WaterFront.res::SpriteFrames::1849265983333275695::1697805096::0::1::::<><>::uid://gpwdi3gt3hwl
-::res://Scenes/::1697884623
-Game.tscn::PackedScene::1142178234429337981::1697884623::0::1::::<><>::res://Scripts/Game.gd<>uid://cer0qe0j47rsm::::res://ProjectResourses/Terrain.res<>uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>uid://3ibata3h365n::::res://Charecters/Player.tscn<>uid://6xqm0e8kjopf::::res://GameResources/Water.res<>uid://c50uibbfix6t3::::res://cave fade.png
-MainMenue.tscn::PackedScene::478087787091029796::1697884622::0::1::::<><>::res://Scripts/MainMenue.gd<>uid://drfo3vxyw3ls4::::res://Imports/UI/Big Text/3.png<>uid://cuexhcovgufqc::::res://Imports/UI/Big Text/1.png<>uid://bmjf4kq1a4xo5::::res://Imports/UI/Big Text/16.png<>uid://dflyks8ih2t8f::::res://Imports/UI/Big Text/20.png<>uid://bqntgjvo8kbve::::res://Imports/UI/Big Text/9.png<>uid://w4nb4k1hmvq3::::res://Imports/UI/Big Text/14.png<>uid://k58sle2huna::::res://Imports/UI/Big Text/4.png<>uid://bmmcuuqi2rp8c::::res://Imports/UI/Big Text/22.png<>uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>uid://4uaxb8dfdv3e::::res://Imports/UI/Big Text/5.png<>uid://bt42gfpsedo4y::::res://Imports/UI/Big Text/21.png<>uid://ew67abqn5r58::::res://Imports/UI/Big Text/18.png<>uid://c6n7e3xica7se::::res://lime.theme
+::res://Scenes/::1697974689
+Game.tscn::PackedScene::1142178234429337981::1697974463::0::1::::<><>::res://Scripts/Game.gd<>uid://cer0qe0j47rsm
+MainMenue.tscn::PackedScene::478087787091029796::1697974689::0::1::::<><>::res://Scripts/MainMenue.gd<>uid://drfo3vxyw3ls4::::res://Imports/UI/Big Text/3.png<>uid://cuexhcovgufqc::::res://Imports/UI/Big Text/1.png<>uid://bmjf4kq1a4xo5::::res://Imports/UI/Big Text/16.png<>uid://dflyks8ih2t8f::::res://Imports/UI/Big Text/20.png<>uid://bqntgjvo8kbve::::res://Imports/UI/Big Text/9.png<>uid://w4nb4k1hmvq3::::res://Imports/UI/Big Text/14.png<>uid://k58sle2huna::::res://Imports/UI/Big Text/4.png<>uid://bmmcuuqi2rp8c::::res://Imports/UI/Big Text/22.png<>uid://bvht4wnbcbwsx::::res://Imports/IslandSprites/Background/BG Image.png<>uid://4uaxb8dfdv3e::::res://Imports/UI/Big Text/5.png<>uid://bt42gfpsedo4y::::res://Imports/UI/Big Text/21.png<>uid://cer0qe0j47rsm::::res://ProjectResourses/Terrain.res<>uid://6xqm0e8kjopf::::res://Water.res<>uid://ew67abqn5r58::::res://Imports/UI/Big Text/18.png<>uid://c6n7e3xica7se::::res://lime.theme
 MainMenueBG.tscn::PackedScene::812312093645813922::1694702752::0::1::::<><>::uid://bvht4wnbcbwsx
-::res://Scripts/::1697881671
-Game.gd::GDScript::-1::1697880974::0::1::::<>Node2D<>::
+::res://Scripts/::1697975089
+Game.gd::GDScript::-1::1697975089::0::1::::<>Node2D<>::
 MainMenue.gd::GDScript::-1::1695529548::0::1::::<>Control<>::
 ShootingOrb.gd::GDScript::-1::1692064990::0::1::::<>Node<>::
 Spikes.gd::GDScript::-1::1692064990::0::1::::<>Node<>::
