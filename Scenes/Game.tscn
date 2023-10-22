@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=11 format=3 uid="uid://qjjrj836row8"]
 
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
 [ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="2_oayvo"]
@@ -6,9 +6,32 @@
 [ext_resource type="PackedScene" uid="uid://3ibata3h365n" path="res://Charecters/Player.tscn" id="4_k70ma"]
 [ext_resource type="PackedScene" uid="uid://6xqm0e8kjopf" path="res://GameResources/Water.res" id="5_e5pbw"]
 [ext_resource type="Texture2D" uid="uid://c50uibbfix6t3" path="res://cave fade.png" id="6_1mwd8"]
+[ext_resource type="Texture2D" uid="uid://3wu3llvar5if" path="res://Imports/IslandSprites/Background/Big Clouds.png" id="7_vaiy6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_aixyw"]
 size = Vector2(666, 84)
+
+[sub_resource type="Animation" id="Animation_aqt6n"]
+resource_name = "BigCloudsScroll"
+length = 60.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BigClouds:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 60),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1344, 318), Vector2(-735.76, 318)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_halxs"]
+_data = {
+"BigCloudsScroll": SubResource("Animation_aqt6n")
+}
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_301mx")
@@ -27,7 +50,7 @@ layer_1/z_index = -1
 layer_1/tile_data = PackedInt32Array()
 
 [node name="BgImage" type="Sprite2D" parent="."]
-z_index = -2
+z_index = -3
 position = Vector2(390.75, 312.75)
 scale = Vector2(2.08464, 4.85547)
 texture = ExtResource("3_yh5qu")
@@ -57,7 +80,16 @@ position = Vector2(307.5, 37.5)
 scale = Vector2(1.275, 0.445)
 texture = ExtResource("6_1mwd8")
 
-[node name="Label" type="Label" parent="."]
-offset_right = 146.0
-offset_bottom = 33.0
-theme_override_font_sizes/font_size = 32
+[node name="BigClouds" type="Sprite2D" parent="."]
+z_index = -2
+texture_repeat = 2
+position = Vector2(1114.47, 318)
+scale = Vector2(2, 2)
+texture = ExtResource("7_vaiy6")
+region_enabled = true
+region_rect = Rect2(0, 0, 1344, 101)
+
+[node name="Clouds" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_halxs")
+}

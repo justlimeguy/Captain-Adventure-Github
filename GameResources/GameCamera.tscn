@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://4vwp5j7h5bxo"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="GameCamera" type="Camera2D" parent="."]
+process_callback = 0

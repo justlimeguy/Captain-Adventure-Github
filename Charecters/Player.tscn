@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=3 uid="uid://3ibata3h365n"]
+[gd_scene load_steps=50 format=3 uid="uid://3ibata3h365n"]
 
 [ext_resource type="Script" path="res://Charecters/Player.gd" id="1_owy05"]
 [ext_resource type="Texture2D" uid="uid://f2bg7btl7d3a" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/04-Fall/Fall 01.png" id="2_a1fcd"]
@@ -31,7 +31,6 @@
 [ext_resource type="Texture2D" uid="uid://xclpdhvxdo3t" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 05.png" id="21_w4ojf"]
 [ext_resource type="Texture2D" uid="uid://d2b1jvinecsbx" path="res://Imports/Captain/Captain Clown Nose/Captain Clown Nose without Sword/02-Run/Run 06.png" id="22_b2it7"]
 [ext_resource type="AudioStream" uid="uid://cw1ggvm5tmpn0" path="res://walk.wav" id="31_lkn8f"]
-[ext_resource type="SpriteFrames" uid="uid://c2x1bafngvdf0" path="res://GameResources/playerParticles.tres" id="32_nxm74"]
 
 [sub_resource type="Animation" id="Animation_qe3fs"]
 length = 0.4
@@ -462,9 +461,3 @@ collide_with_areas = true
 stream = ExtResource("31_lkn8f")
 volume_db = 1.0
 bus = &"Player"
-
-[node name="Particles" type="AnimatedSprite2D" parent="."]
-position = Vector2(-1.33333, -10.6667)
-sprite_frames = ExtResource("32_nxm74")
-animation = &"swiming"
-frame_progress = 0.303154

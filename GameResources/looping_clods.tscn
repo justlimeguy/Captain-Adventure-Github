@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d1ao7rj7o315u"]
+
+[node name="LoopingClods" type="AnimationPlayer"]
+
+[node name="BigClouds" type="Sprite2D" parent="."]
+
+[node name="Medium CLuds" type="Sprite2D" parent="."]
+
+[node name="SmallClouds" type="Sprite2D" parent="."]
