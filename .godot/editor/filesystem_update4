@@ -1,4 +1,5 @@
 res://Scenes/Game.tscn
 res://ProjectResourses/Terrain.res
+res://Charecters/Player.gd
 res://Charecters/Player.tscn
 res://GameResources/candle.tscn

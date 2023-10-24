@@ -1,3 +1,5 @@
+AudioStreamPlayer2D
+AudioStreamPlayer
 Camera2D
 CollisionShape2D
 Area2D
@@ -28,5 +30,3 @@ GridContainer
 PanelContainer
 Button
 NavigationRegion3D
-NavigationAgent3D
-Sprite3D

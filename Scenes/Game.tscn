@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://qjjrj836row8"]
+[gd_scene load_steps=4 format=3 uid="uid://qjjrj836row8"]
 
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_301mx"]
 [ext_resource type="TileSet" uid="uid://cer0qe0j47rsm" path="res://ProjectResourses/Terrain.res" id="2_oayvo"]
+[ext_resource type="PackedScene" uid="uid://3ibata3h365n" path="res://Charecters/Player.tscn" id="3_pp6wh"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_301mx")
@@ -23,3 +24,6 @@ layer_1/tile_data = PackedInt32Array()
 limit_left = 0
 limit_top = 0
 editor_draw_limits = true
+
+[node name="Player" parent="." instance=ExtResource("3_pp6wh")]
+position = Vector2(526, 311)
